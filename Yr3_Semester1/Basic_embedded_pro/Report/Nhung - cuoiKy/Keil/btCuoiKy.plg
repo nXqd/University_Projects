@@ -1,0 +1,134 @@
+<html>
+<body>
+<pre>
+<h1>µVision3 Build Log</h1>
+<h2>Project:</h2>
+C:\Users\error\Desktop\0812090 - 0812076\btCuoiKy.uv2
+Project File Date:  12/04/2010
+
+<h2>Output:</h2>
+"LPC210x_ISP.EXE" "C:\Users\error\Desktop\0812090 - 0812076\btCuoiKy.HEX" 12000 LPC2378 COM1: 38400 1
+--- Error: failed to execute '"LPC210x_ISP.EXE" "C:\Users\error\Desktop\0812090 - 0812076\btCuoiKy.HEX" 12000 LPC2378 COM1: 38400 1'
+Build target 'Code'
+assembling LPC2300.s...
+compiling main.c...
+main.c(122): warning:  #223-D: function "sendchar" declared implicitly
+main.c(192): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const unsigned char *"
+main.c(194): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const unsigned char *"
+main.c(198): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const unsigned char *"
+main.c(200): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const unsigned char *"
+main.c(204): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const unsigned char *"
+main.c(206): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const unsigned char *"
+main.c(248): warning:  #223-D: function "getkey" declared implicitly
+main.c(289): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const unsigned char *"
+main.c(315): warning:  #111-D: statement is unreachable
+linking...
+btCuoiKy.axf: Error: L6218E: Undefined symbol getkey (referred from main.o).
+btCuoiKy.axf: Error: L6218E: Undefined symbol init_serial (referred from main.o).
+btCuoiKy.axf: Error: L6218E: Undefined symbol lcd_clear (referred from main.o).
+btCuoiKy.axf: Error: L6218E: Undefined symbol lcd_init (referred from main.o).
+btCuoiKy.axf: Error: L6218E: Undefined symbol lcd_print (referred from main.o).
+btCuoiKy.axf: Error: L6218E: Undefined symbol lcd_putchar (referred from main.o).
+btCuoiKy.axf: Error: L6218E: Undefined symbol sendchar (referred from main.o).
+btCuoiKy.axf: Error: L6218E: Undefined symbol set_cursor (referred from main.o).
+Target not created
+Build target 'Code'
+assembling LPC2300.s...
+compiling main.c...
+main.c(122): warning:  #223-D: function "sendchar" declared implicitly
+main.c(192): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const unsigned char *"
+main.c(194): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const unsigned char *"
+main.c(198): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const unsigned char *"
+main.c(200): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const unsigned char *"
+main.c(204): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const unsigned char *"
+main.c(206): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const unsigned char *"
+main.c(248): warning:  #223-D: function "getkey" declared implicitly
+main.c(289): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const unsigned char *"
+main.c(315): warning:  #111-D: statement is unreachable
+linking...
+btCuoiKy.axf: Error: L6218E: Undefined symbol getkey (referred from main.o).
+btCuoiKy.axf: Error: L6218E: Undefined symbol init_serial (referred from main.o).
+btCuoiKy.axf: Error: L6218E: Undefined symbol lcd_clear (referred from main.o).
+btCuoiKy.axf: Error: L6218E: Undefined symbol lcd_init (referred from main.o).
+btCuoiKy.axf: Error: L6218E: Undefined symbol lcd_print (referred from main.o).
+btCuoiKy.axf: Error: L6218E: Undefined symbol lcd_putchar (referred from main.o).
+btCuoiKy.axf: Error: L6218E: Undefined symbol sendchar (referred from main.o).
+btCuoiKy.axf: Error: L6218E: Undefined symbol set_cursor (referred from main.o).
+Target not created
+Build target 'Code'
+assembling LPC2300.s...
+LPC2300.s: Error: A9932E: LICENSE ERROR (R208: RENEW LICENSE ID CODE (LIC))
+Target not created
+Build target 'Code'
+assembling LPC2300.s...
+compiling main.c...
+main.c(122): warning:  #223-D: function "sendchar" declared implicitly
+main.c(192): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const unsigned char *"
+main.c(194): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const unsigned char *"
+main.c(198): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const unsigned char *"
+main.c(200): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const unsigned char *"
+main.c(204): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const unsigned char *"
+main.c(206): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const unsigned char *"
+main.c(248): warning:  #223-D: function "getkey" declared implicitly
+main.c(289): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const unsigned char *"
+main.c(315): warning:  #111-D: statement is unreachable
+compiling IRQ.c...
+compiling LCD_4bit.c...
+compiling Retarget.c...
+compiling Serial.c...
+linking...
+Program Size: Code=5316 RO-data=96 RW-data=1164 ZI-data=1388  
+"btCuoiKy.axf" - 0 Error(s), 10 Warning(s).
+"LPC210x_ISP.EXE" "C:\Users\error\Desktop\0812090 - 0812076\btCuoiKy.HEX" 12000 LPC2378 COM1: 38400 1
+--- Error: failed to execute '"LPC210x_ISP.EXE" "C:\Users\error\Desktop\0812090 - 0812076\btCuoiKy.HEX" 12000 LPC2378 COM1: 38400 1'
+Build target 'Code'
+linking...
+Program Size: Code=5316 RO-data=96 RW-data=1164 ZI-data=1388  
+"btCuoiKy.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Code'
+assembling LPC2300.s...
+compiling main.c...
+main.c(122): warning:  #223-D: function "sendchar" declared implicitly
+main.c(192): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const unsigned char *"
+main.c(194): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const unsigned char *"
+main.c(198): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const unsigned char *"
+main.c(200): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const unsigned char *"
+main.c(204): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const unsigned char *"
+main.c(206): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const unsigned char *"
+main.c(248): warning:  #223-D: function "getkey" declared implicitly
+main.c(289): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const unsigned char *"
+main.c(315): warning:  #111-D: statement is unreachable
+compiling IRQ.c...
+compiling LCD_4bit.c...
+compiling Retarget.c...
+compiling Serial.c...
+linking...
+Program Size: Code=5316 RO-data=96 RW-data=1164 ZI-data=1388  
+"btCuoiKy.axf" - 0 Error(s), 10 Warning(s).
+"LPC210x_ISP.EXE" "C:\Users\error\Desktop\0812090 - 0812076\btCuoiKy.HEX" 12000 LPC2378 COM1: 38400 1
+--- Error: failed to execute '"LPC210x_ISP.EXE" "C:\Users\error\Desktop\0812090 - 0812076\btCuoiKy.HEX" 12000 LPC2378 COM1: 38400 1'
+Build target 'Code'
+assembling LPC2300.s...
+compiling main.c...
+main.c(122): warning:  #223-D: function "sendchar" declared implicitly
+main.c(192): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const unsigned char *"
+main.c(194): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const unsigned char *"
+main.c(198): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const unsigned char *"
+main.c(200): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const unsigned char *"
+main.c(204): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const unsigned char *"
+main.c(206): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const unsigned char *"
+main.c(248): warning:  #223-D: function "getkey" declared implicitly
+main.c(289): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const unsigned char *"
+main.c(315): warning:  #111-D: statement is unreachable
+compiling IRQ.c...
+compiling LCD_4bit.c...
+compiling Retarget.c...
+compiling Serial.c...
+linking...
+Program Size: Code=5316 RO-data=96 RW-data=1164 ZI-data=1388  
+"btCuoiKy.axf" - 0 Error(s), 10 Warning(s).
+Load "C:\\Users\\error\\Desktop\\0812090 - 0812076\\btCuoiKy.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...

@@ -1,0 +1,2 @@
+Dependencies for Project 'btCuoiKy', Target 'Target 1': (DO NOT MODIFY !)
+F (.\LPC2300.s)(0x47FED444)(--device DARMP -g --apcs=interwork -I "C:\Keil\ARM\INC\Philips" --list "LPC2300.lst" --xref -o "LPC2300.o")

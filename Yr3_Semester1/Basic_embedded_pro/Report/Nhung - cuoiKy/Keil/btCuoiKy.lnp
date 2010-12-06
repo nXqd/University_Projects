@@ -1,0 +1,4 @@
+"lpc2300.o" "main.o" "irq.o" "lcd_4bit.o" "retarget.o" "serial.o" --device DARMP --strict --scatter "btCuoiKy.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\btCuoiKy.map" -o "btCuoiKy.axf"

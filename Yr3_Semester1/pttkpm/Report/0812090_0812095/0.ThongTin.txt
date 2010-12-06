@@ -1,0 +1,15 @@
+﻿Nhóm Phân Tích Thiết Kế Phần Mềm
+1.  Nguyễn Xuân Quang Dũng
+    0810290
+    nxqd3051990@gmail.com
+    
+2.  Võ Chí Dũng
+    0812095
+    vcd_bkcb@yahoo.com
+
+Bài nộp bao gồm: 
+1. Phát biểu bài toán [docx]
+2. Sơ đồ useCase [mdl]
+3. Sơ đồ lớp [mdl]
+4. Đặc tả useCase [docx]
+

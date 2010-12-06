@@ -1,0 +1,9 @@
+This is the project I and my friend have done in University.
+The program written in C# can interact with MCB2300 board. Program in board written in Keil 3.
+Features:
+	1. Input / output text
+	2. Play a song [beep beep]
+	3. Reset board 
+	4. Send current time
+
+It's still quite simple, so I would be very happy if you guys fork and give comments to my project.

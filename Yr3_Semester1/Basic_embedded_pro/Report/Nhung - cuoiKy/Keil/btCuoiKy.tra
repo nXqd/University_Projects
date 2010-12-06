@@ -1,0 +1,24 @@
+*** Creating Trace Output File 'btCuoiKy.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"lpc2300.o"'
+### List of Objects: adding '"main.o"'
+### List of Objects: adding '"irq.o"'
+### List of Objects: adding '"lcd_4bit.o"'
+### List of Objects: adding '"retarget.o"'
+### List of Objects: adding '"serial.o"'
+### ADS-LD Command completed:
+"lpc2300.o" "main.o" "irq.o" "lcd_4bit.o" "retarget.o" "serial.o" --device DARMP --strict --scatter "btCuoiKy.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\btCuoiKy.map" -o "btCuoiKy.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'btCuoiKy.axf'
+### ADS-LD Command File: 'btCuoiKy.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'btCuoiKy.lnp', Handle=0x000007B0
+### Writing '.lnp' file
+### ADS-LD Command file 'btCuoiKy.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.
