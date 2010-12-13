@@ -1,0 +1,19 @@
+# Microsoft Developer Studio Project File - Database Project
+Begin DataProject = "QLNS"
+   MSDTVersion = "80"
+   DefDBRef = "MyDatabase#1.sdf"
+   Begin Folder = "Change Scripts"
+      Script = "Script.sql"
+   End
+   Begin Folder = "Create Scripts"
+   End
+   Begin DBRefFolder = "Database References"
+      Begin DBRefNode = "MyDatabase#1.sdf"
+         ConnectStr = "Data Source=E:\My Dropbox\Work\QLNS\MyDatabase#1.sdf;Persist Security Info=True"
+         Provider = "{7C602B5B-ACCB-4ACD-9DC0-CA66388C1533}"
+         Colorizer = 65536
+      End
+   End
+   Begin Folder = "Queries"
+   End
+End

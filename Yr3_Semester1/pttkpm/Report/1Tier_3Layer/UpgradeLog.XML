@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="QLNS">
+</Property><Property Name="Solution File" Value="C:\Documents and Settings\Office\Desktop\QLNS\Source\QLNS.sln">
+</Property><Property Name="User Options File" Value="C:\Documents and Settings\Office\Desktop\QLNS\Source\QLNS.suo">
+</Property><Property Name="Date" Value="Sunday, December 12, 2010">
+</Property><Property Name="Time" Value="12:04 PM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="QLNS.sln" Description="File successfully backed up as C:\Documents and Settings\Office\Desktop\QLNS\Source\Backup\QLNS.sln">
+</Event><Event ErrorLevel="0" Project="" Source="QLNS.suo" Description="File successfully backed up as C:\Documents and Settings\Office\Desktop\QLNS\Source\Backup\QLNS.suo">
+</Event><Event ErrorLevel="0" Project="Presentation" Source="QLNS\Presentation.csproj" Description="Project file successfully backed up as C:\Documents and Settings\Office\Desktop\QLNS\Source\Backup\QLNS\Presentation.csproj">
+</Event><Event ErrorLevel="0" Project="Presentation" Source="QLNS\About.cs" Description="File successfully backed up as C:\Documents and Settings\Office\Desktop\QLNS\Source\Backup\QLNS\About.cs">
+</Event><Event ErrorLevel="0" Project="Presentation" Source="QLNS\About.Designer.cs" Description="File successfully backed up as C:\Documents and Settings\Office\Desktop\QLNS\Source\Backup\QLNS\About.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Presentation" Source="QLNS\BaoCaoCongNo.cs" Description="File successfully backed up as C:\Documents and Settings\Office\Desktop\QLNS\Source\Backup\QLNS\BaoCaoCongNo.cs">
+</Event><Event ErrorLevel="0" Project="Presentation" Source="QLNS\BaoCaoCongNo.Designer.cs" Description="File successfully backed up as C:\Documents and Settings\Office\Desktop\QLNS\Source\Backup\QLNS\BaoCaoCongNo.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Presentation" Source="QLNS\BaoCaoTon.cs" Description="File successfully backed up as C:\Documents and Settings\Office\Desktop\QLNS\Source\Backup\QLNS\BaoCaoTon.cs">
+</Event><Event ErrorLevel="0" Project="Presentation" Source="QLNS\BaoCaoTon.Designer.cs" Description="File successfully backed up as C:\Documents and Settings\Office\Desktop\QLNS\Source\Backup\QLNS\BaoCaoTon.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Presentation" Source="QLNS\DanhSachSach.cs" Description="File successfully backed up as C:\Documents and Settings\Office\Desktop\QLNS\Source\Backup\QLNS\DanhSachSach.cs">
+</Event><Event ErrorLevel="0" Project="Presentation" Source="QLNS\DanhSachSach.Designer.cs" Description="File successfully backed up as C:\Documents and Settings\Office\Desktop\QLNS\Source\Backup\QLNS\DanhSachSach.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Presentation" Source="QLNS\HoaDonBanSach.cs" Description="File successfully backed up as C:\Documents and Settings\Office\Desktop\QLNS\Source\Backup\QLNS\HoaDonBanSach.cs">
+</Event><Event ErrorLevel="0" Project="Presentation" Source="QLNS\HoaDonBanSach.Designer.cs" Description="File successfully backed up as C:\Documents and Settings\Office\Desktop\QLNS\Source\Backup\QLNS\HoaDonBanSach.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Presentation" Source="QLNS\Main.cs" Description="File successfully backed up as C:\Documents and Settings\Office\Desktop\QLNS\Source\Backup\QLNS\Main.cs">
+</Event><Event ErrorLevel="0" Project="Presentation" Source="QLNS\Main.designer.cs" Description="File successfully backed up as C:\Documents and Settings\Office\Desktop\QLNS\Source\Backup\QLNS\Main.designer.cs">
+</Event><Event ErrorLevel="0" Project="Presentation" Source="QLNS\PhieuNhapSach.cs" Description="File successfully backed up as C:\Documents and Settings\Office\Desktop\QLNS\Source\Backup\QLNS\PhieuNhapSach.cs">
+</Event><Event ErrorLevel="0" Project="Presentation" Source="QLNS\PhieuNhapSach.designer.cs" Description="File successfully backed up as C:\Documents and Settings\Office\Desktop\QLNS\Source\Backup\QLNS\PhieuNhapSach.designer.cs">
+</Event><Event ErrorLevel="0" Project="Presentation" Source="QLNS\PhieuThuTien.cs" Description="File successfully backed up as C:\Documents and Settings\Office\Desktop\QLNS\Source\Backup\QLNS\PhieuThuTien.cs">
+</Event><Event ErrorLevel="0" Project="Presentation" Source="QLNS\PhieuThuTien.Designer.cs" Description="File successfully backed up as C:\Documents and Settings\Office\Desktop\QLNS\Source\Backup\QLNS\PhieuThuTien.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Presentation" Source="QLNS\Program.cs" Description="File successfully backed up as C:\Documents and Settings\Office\Desktop\QLNS\Source\Backup\QLNS\Program.cs">
+</Event><Event ErrorLevel="0" Project="Presentation" Source="QLNS\Properties\AssemblyInfo.cs" Description="File successfully backed up as C:\Documents and Settings\Office\Desktop\QLNS\Source\Backup\QLNS\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="Presentation" Source="QLNS\Properties\Resources.Designer.cs" Description="File successfully backed up as C:\Documents and Settings\Office\Desktop\QLNS\Source\Backup\QLNS\Properties\Resources.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Presentation" Source="QLNS\Properties\Settings.Designer.cs" Description="File successfully backed up as C:\Documents and Settings\Office\Desktop\QLNS\Source\Backup\QLNS\Properties\Settings.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Presentation" Source="QLNS\QLNSDataSet.Designer.cs" Description="File successfully backed up as C:\Documents and Settings\Office\Desktop\QLNS\Source\Backup\QLNS\QLNSDataSet.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Presentation" Source="QLNS\QLNSDataSet1.cs" Description="File successfully backed up as C:\Documents and Settings\Office\Desktop\QLNS\Source\Backup\QLNS\QLNSDataSet1.cs">
+</Event><Event ErrorLevel="0" Project="Presentation" Source="QLNS\QLNSDataSet1.Designer.cs" Description="File successfully backed up as C:\Documents and Settings\Office\Desktop\QLNS\Source\Backup\QLNS\QLNSDataSet1.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Presentation" Source="QLNS\ThayDoiThamSo.cs" Description="File successfully backed up as C:\Documents and Settings\Office\Desktop\QLNS\Source\Backup\QLNS\ThayDoiThamSo.cs">
+</Event><Event ErrorLevel="0" Project="Presentation" Source="QLNS\ThayDoiThamSo.Designer.cs" Description="File successfully backed up as C:\Documents and Settings\Office\Desktop\QLNS\Source\Backup\QLNS\ThayDoiThamSo.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Presentation" Source="QLNS\UngHo.cs" Description="File successfully backed up as C:\Documents and Settings\Office\Desktop\QLNS\Source\Backup\QLNS\UngHo.cs">
+</Event><Event ErrorLevel="0" Project="Presentation" Source="QLNS\UngHo.Designer.cs" Description="File successfully backed up as C:\Documents and Settings\Office\Desktop\QLNS\Source\Backup\QLNS\UngHo.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Presentation" Source="QLNS\app.config" Description="File successfully backed up as C:\Documents and Settings\Office\Desktop\QLNS\Source\Backup\QLNS\app.config">
+</Event><Event ErrorLevel="0" Project="Presentation" Source="QLNS\Properties\Settings.settings" Description="File successfully backed up as C:\Documents and Settings\Office\Desktop\QLNS\Source\Backup\QLNS\Properties\Settings.settings">
+</Event><Event ErrorLevel="0" Project="Presentation" Source="QLNS\QLNSDataSet.xsc" Description="File successfully backed up as C:\Documents and Settings\Office\Desktop\QLNS\Source\Backup\QLNS\QLNSDataSet.xsc">
+</Event><Event ErrorLevel="0" Project="Presentation" Source="QLNS\QLNSDataSet.xsd" Description="File successfully backed up as C:\Documents and Settings\Office\Desktop\QLNS\Source\Backup\QLNS\QLNSDataSet.xsd">
+</Event><Event ErrorLevel="0" Project="Presentation" Source="QLNS\QLNSDataSet.xss" Description="File successfully backed up as C:\Documents and Settings\Office\Desktop\QLNS\Source\Backup\QLNS\QLNSDataSet.xss">
+</Event><Event ErrorLevel="0" Project="Presentation" Source="QLNS\QLNSDataSet1.xsc" Description="File successfully backed up as C:\Documents and Settings\Office\Desktop\QLNS\Source\Backup\QLNS\QLNSDataSet1.xsc">
+</Event><Event ErrorLevel="0" Project="Presentation" Source="QLNS\QLNSDataSet1.xsd" Description="File successfully backed up as C:\Documents and Settings\Office\Desktop\QLNS\Source\Backup\QLNS\QLNSDataSet1.xsd">
+</Event><Event ErrorLevel="0" Project="Presentation" Source="QLNS\QLNSDataSet1.xss" Description="File successfully backed up as C:\Documents and Settings\Office\Desktop\QLNS\Source\Backup\QLNS\QLNSDataSet1.xss">
+</Event><Event ErrorLevel="0" Project="Presentation" Source="QLNS\stack of books.ico" Description="File successfully backed up as C:\Documents and Settings\Office\Desktop\QLNS\Source\Backup\QLNS\stack of books.ico">
+</Event><Event ErrorLevel="0" Project="Presentation" Source="QLNS\About.resx" Description="File successfully backed up as C:\Documents and Settings\Office\Desktop\QLNS\Source\Backup\QLNS\About.resx">
+</Event><Event ErrorLevel="0" Project="Presentation" Source="QLNS\BaoCaoCongNo.resx" Description="File successfully backed up as C:\Documents and Settings\Office\Desktop\QLNS\Source\Backup\QLNS\BaoCaoCongNo.resx">
+</Event><Event ErrorLevel="0" Project="Presentation" Source="QLNS\BaoCaoTon.resx" Description="File successfully backed up as C:\Documents and Settings\Office\Desktop\QLNS\Source\Backup\QLNS\BaoCaoTon.resx">
+</Event><Event ErrorLevel="0" Project="Presentation" Source="QLNS\DanhSachSach.resx" Description="File successfully backed up as C:\Documents and Settings\Office\Desktop\QLNS\Source\Backup\QLNS\DanhSachSach.resx">
+</Event><Event ErrorLevel="0" Project="Presentation" Source="QLNS\HoaDonBanSach.resx" Description="File successfully backed up as C:\Documents and Settings\Office\Desktop\QLNS\Source\Backup\QLNS\HoaDonBanSach.resx">
+</Event><Event ErrorLevel="0" Project="Presentation" Source="QLNS\Main.resx" Description="File successfully backed up as C:\Documents and Settings\Office\Desktop\QLNS\Source\Backup\QLNS\Main.resx">
+</Event><Event ErrorLevel="0" Project="Presentation" Source="QLNS\PhieuNhapSach.resx" Description="File successfully backed up as C:\Documents and Settings\Office\Desktop\QLNS\Source\Backup\QLNS\PhieuNhapSach.resx">
+</Event><Event ErrorLevel="0" Project="Presentation" Source="QLNS\PhieuThuTien.resx" Description="File successfully backed up as C:\Documents and Settings\Office\Desktop\QLNS\Source\Backup\QLNS\PhieuThuTien.resx">
+</Event><Event ErrorLevel="0" Project="Presentation" Source="QLNS\Properties\Resources.resx" Description="File successfully backed up as C:\Documents and Settings\Office\Desktop\QLNS\Source\Backup\QLNS\Properties\Resources.resx">
+</Event><Event ErrorLevel="0" Project="Presentation" Source="QLNS\ThayDoiThamSo.resx" Description="File successfully backed up as C:\Documents and Settings\Office\Desktop\QLNS\Source\Backup\QLNS\ThayDoiThamSo.resx">
+</Event><Event ErrorLevel="0" Project="Presentation" Source="QLNS\UngHo.resx" Description="File successfully backed up as C:\Documents and Settings\Office\Desktop\QLNS\Source\Backup\QLNS\UngHo.resx">
+</Event><Event ErrorLevel="0" Project="Presentation" Source="QLNS\Presentation.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Presentation" Source="QLNS\Presentation.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="DTO" Source="DTO\DTO.csproj" Description="Project file successfully backed up as C:\Documents and Settings\Office\Desktop\QLNS\Source\Backup\DTO\DTO.csproj">
+</Event><Event ErrorLevel="0" Project="DTO" Source="DTO\ChiTietPhieuNhapDTO.cs" Description="File successfully backed up as C:\Documents and Settings\Office\Desktop\QLNS\Source\Backup\DTO\ChiTietPhieuNhapDTO.cs">
+</Event><Event ErrorLevel="0" Project="DTO" Source="DTO\ChiTietPhieuXuatDTO.cs" Description="File successfully backed up as C:\Documents and Settings\Office\Desktop\QLNS\Source\Backup\DTO\ChiTietPhieuXuatDTO.cs">
+</Event><Event ErrorLevel="0" Project="DTO" Source="DTO\DauSachDTO.cs" Description="File successfully backed up as C:\Documents and Settings\Office\Desktop\QLNS\Source\Backup\DTO\DauSachDTO.cs">
+</Event><Event ErrorLevel="0" Project="DTO" Source="DTO\KhachHangDTO.cs" Description="File successfully backed up as C:\Documents and Settings\Office\Desktop\QLNS\Source\Backup\DTO\KhachHangDTO.cs">
+</Event><Event ErrorLevel="0" Project="DTO" Source="DTO\KhachHangOutDTO.cs" Description="File successfully backed up as C:\Documents and Settings\Office\Desktop\QLNS\Source\Backup\DTO\KhachHangOutDTO.cs">
+</Event><Event ErrorLevel="0" Project="DTO" Source="DTO\PhieuNhapDTO.cs" Description="File successfully backed up as C:\Documents and Settings\Office\Desktop\QLNS\Source\Backup\DTO\PhieuNhapDTO.cs">
+</Event><Event ErrorLevel="0" Project="DTO" Source="DTO\PhieuThuTienDTO.cs" Description="File successfully backed up as C:\Documents and Settings\Office\Desktop\QLNS\Source\Backup\DTO\PhieuThuTienDTO.cs">
+</Event><Event ErrorLevel="0" Project="DTO" Source="DTO\PhieuXuatDTO.cs" Description="File successfully backed up as C:\Documents and Settings\Office\Desktop\QLNS\Source\Backup\DTO\PhieuXuatDTO.cs">
+</Event><Event ErrorLevel="0" Project="DTO" Source="DTO\Properties\AssemblyInfo.cs" Description="File successfully backed up as C:\Documents and Settings\Office\Desktop\QLNS\Source\Backup\DTO\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="DTO" Source="DTO\SachNhapDTO.cs" Description="File successfully backed up as C:\Documents and Settings\Office\Desktop\QLNS\Source\Backup\DTO\SachNhapDTO.cs">
+</Event><Event ErrorLevel="0" Project="DTO" Source="DTO\SachOutDTO.cs" Description="File successfully backed up as C:\Documents and Settings\Office\Desktop\QLNS\Source\Backup\DTO\SachOutDTO.cs">
+</Event><Event ErrorLevel="0" Project="DTO" Source="DTO\ThamSoDTO.cs" Description="File successfully backed up as C:\Documents and Settings\Office\Desktop\QLNS\Source\Backup\DTO\ThamSoDTO.cs">
+</Event><Event ErrorLevel="0" Project="DTO" Source="DTO\DTO.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="DTO" Source="DTO\DTO.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="DAO" Source="DAO\DAO.csproj" Description="Project file successfully backed up as C:\Documents and Settings\Office\Desktop\QLNS\Source\Backup\DAO\DAO.csproj">
+</Event><Event ErrorLevel="0" Project="DAO" Source="DAO\ChiTietPhieuNhapDAO.cs" Description="File successfully backed up as C:\Documents and Settings\Office\Desktop\QLNS\Source\Backup\DAO\ChiTietPhieuNhapDAO.cs">
+</Event><Event ErrorLevel="0" Project="DAO" Source="DAO\ChiTietPhieuXuatDAO.cs" Description="File successfully backed up as C:\Documents and Settings\Office\Desktop\QLNS\Source\Backup\DAO\ChiTietPhieuXuatDAO.cs">
+</Event><Event ErrorLevel="0" Project="DAO" Source="DAO\KhachHangDAO.cs" Description="File successfully backed up as C:\Documents and Settings\Office\Desktop\QLNS\Source\Backup\DAO\KhachHangDAO.cs">
+</Event><Event ErrorLevel="0" Project="DAO" Source="DAO\PhieuNhapDAO.cs" Description="File successfully backed up as C:\Documents and Settings\Office\Desktop\QLNS\Source\Backup\DAO\PhieuNhapDAO.cs">
+</Event><Event ErrorLevel="0" Project="DAO" Source="DAO\PhieuThuTienDAO.cs" Description="File successfully backed up as C:\Documents and Settings\Office\Desktop\QLNS\Source\Backup\DAO\PhieuThuTienDAO.cs">
+</Event><Event ErrorLevel="0" Project="DAO" Source="DAO\PhieuXuatDAO.cs" Description="File successfully backed up as C:\Documents and Settings\Office\Desktop\QLNS\Source\Backup\DAO\PhieuXuatDAO.cs">
+</Event><Event ErrorLevel="0" Project="DAO" Source="DAO\Properties\AssemblyInfo.cs" Description="File successfully backed up as C:\Documents and Settings\Office\Desktop\QLNS\Source\Backup\DAO\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="DAO" Source="DAO\Database.cs" Description="File successfully backed up as C:\Documents and Settings\Office\Desktop\QLNS\Source\Backup\DAO\Database.cs">
+</Event><Event ErrorLevel="0" Project="DAO" Source="DAO\SachDAO.cs" Description="File successfully backed up as C:\Documents and Settings\Office\Desktop\QLNS\Source\Backup\DAO\SachDAO.cs">
+</Event><Event ErrorLevel="0" Project="DAO" Source="DAO\ThamSoDAO.cs" Description="File successfully backed up as C:\Documents and Settings\Office\Desktop\QLNS\Source\Backup\DAO\ThamSoDAO.cs">
+</Event><Event ErrorLevel="0" Project="DAO" Source="DAO\DAO.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="DAO" Source="DAO\DAO.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="BUS" Source="BUS\BUS.csproj" Description="Project file successfully backed up as C:\Documents and Settings\Office\Desktop\QLNS\Source\Backup\BUS\BUS.csproj">
+</Event><Event ErrorLevel="0" Project="BUS" Source="BUS\ChiTietPhieuNhapBUS.cs" Description="File successfully backed up as C:\Documents and Settings\Office\Desktop\QLNS\Source\Backup\BUS\ChiTietPhieuNhapBUS.cs">
+</Event><Event ErrorLevel="0" Project="BUS" Source="BUS\ChiTietPhieuXuatBUS.cs" Description="File successfully backed up as C:\Documents and Settings\Office\Desktop\QLNS\Source\Backup\BUS\ChiTietPhieuXuatBUS.cs">
+</Event><Event ErrorLevel="0" Project="BUS" Source="BUS\DauSachBUS.cs" Description="File successfully backed up as C:\Documents and Settings\Office\Desktop\QLNS\Source\Backup\BUS\DauSachBUS.cs">
+</Event><Event ErrorLevel="0" Project="BUS" Source="BUS\KhachHangBUS.cs" Description="File successfully backed up as C:\Documents and Settings\Office\Desktop\QLNS\Source\Backup\BUS\KhachHangBUS.cs">
+</Event><Event ErrorLevel="0" Project="BUS" Source="BUS\PhieuNhapBUS.cs" Description="File successfully backed up as C:\Documents and Settings\Office\Desktop\QLNS\Source\Backup\BUS\PhieuNhapBUS.cs">
+</Event><Event ErrorLevel="0" Project="BUS" Source="BUS\PhieuThuTienBUS.cs" Description="File successfully backed up as C:\Documents and Settings\Office\Desktop\QLNS\Source\Backup\BUS\PhieuThuTienBUS.cs">
+</Event><Event ErrorLevel="0" Project="BUS" Source="BUS\PhieuXuatBUS.cs" Description="File successfully backed up as C:\Documents and Settings\Office\Desktop\QLNS\Source\Backup\BUS\PhieuXuatBUS.cs">
+</Event><Event ErrorLevel="0" Project="BUS" Source="BUS\Properties\AssemblyInfo.cs" Description="File successfully backed up as C:\Documents and Settings\Office\Desktop\QLNS\Source\Backup\BUS\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="BUS" Source="BUS\ThamSoBUS.cs" Description="File successfully backed up as C:\Documents and Settings\Office\Desktop\QLNS\Source\Backup\BUS\ThamSoBUS.cs">
+</Event><Event ErrorLevel="0" Project="BUS" Source="BUS\BUS.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="BUS" Source="BUS\BUS.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="QLNS.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="QLNS.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Presentation" Source="QLNS\Presentation.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="DTO" Source="DTO\DTO.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="DAO" Source="DAO\DAO.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="BUS" Source="BUS\BUS.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

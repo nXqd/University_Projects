@@ -1,0 +1,64 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="dataPath" priority="0" />
+      <Item value="SQLiteConnection`0" priority="0" />
+      <Item value="else" priority="0" />
+      <Item value="cnn" priority="0" />
+      <Item value="new" priority="0" />
+      <Item value="SQLiteConnection" priority="0" />
+      <Item value="_connString" priority="0" />
+      <Item value="cmd" priority="0" />
+      <Item value="informations" priority="0" />
+      <Item value="null" priority="1" />
+      <Item value="return" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.SQLite.SQLiteCommand">
+      <Item value="CommandText" priority="0" />
+      <Item value="ExecuteNonQuery`0" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="54D69595-FC04-41BC-BF1E-596D15307ADB/f:PhieuThuTien.cs" caret="2600" fromTop="20" />
+      <File id="54D69595-FC04-41BC-BF1E-596D15307ADB/f:PhieuNhapSach.cs" caret="507" fromTop="18" />
+      <File id="54D69595-FC04-41BC-BF1E-596D15307ADB/f:DanhSachSach.cs" caret="564" fromTop="18" />
+      <File id="54D69595-FC04-41BC-BF1E-596D15307ADB/f:DanhSachSach.Designer.cs" caret="286" fromTop="10" />
+      <File id="0237BC3A-B833-4D64-B0F2-7C203F8CCD06/f:KhachHangBUS.cs" caret="510" fromTop="18" />
+      <File id="BD00B1D2-4296-4CF9-8E2C-E28DAEF62744/f:ChiTietPhieuNhapDAO.cs" caret="0" fromTop="0" />
+      <File id="BD00B1D2-4296-4CF9-8E2C-E28DAEF62744/f:Database.cs" caret="286" fromTop="11" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="BD00B1D2-4296-4CF9-8E2C-E28DAEF62744/f:Database.cs" caret="509" fromTop="7" />
+      <File id="BD00B1D2-4296-4CF9-8E2C-E28DAEF62744/f:Database.cs" caret="2622" fromTop="21" />
+      <File id="BD00B1D2-4296-4CF9-8E2C-E28DAEF62744/f:Database.cs" caret="2516" fromTop="22" />
+      <File id="BD00B1D2-4296-4CF9-8E2C-E28DAEF62744/f:Database.cs" caret="2516" fromTop="27" />
+      <File id="BD00B1D2-4296-4CF9-8E2C-E28DAEF62744/f:Database.cs" caret="2516" fromTop="26" />
+      <File id="BD00B1D2-4296-4CF9-8E2C-E28DAEF62744/f:Database.cs" caret="2514" fromTop="37" />
+      <File id="BD00B1D2-4296-4CF9-8E2C-E28DAEF62744/f:Database.cs" caret="2514" fromTop="21" />
+      <File id="BD00B1D2-4296-4CF9-8E2C-E28DAEF62744/f:Database.cs" caret="841" fromTop="8" />
+      <File id="54D69595-FC04-41BC-BF1E-596D15307ADB/f:PhieuThuTien.cs" caret="2978" fromTop="19" />
+      <File id="54D69595-FC04-41BC-BF1E-596D15307ADB/f:PhieuThuTien.cs" caret="2800" fromTop="15" />
+      <File id="0237BC3A-B833-4D64-B0F2-7C203F8CCD06/f:KhachHangBUS.cs" caret="1512" fromTop="28" />
+      <File id="54D69595-FC04-41BC-BF1E-596D15307ADB/f:DanhSachSach.cs" caret="1692" fromTop="13" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+</Configuration>
