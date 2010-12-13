@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="2.0" xmlns:edmx="http://schemas.microsoft.com/ado/2008/10/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="dbSqliteModel.Store" Alias="Self" Provider="System.Data.SQLite" ProviderManifestToken="ISO8601" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+        <EntityContainer Name="dbSqliteModelStoreContainer">
+          <EntitySet Name="NhanVien" EntityType="dbSqliteModel.Store.NhanVien" store:Type="Tables" store:Name="NhanVien">
+            <DefiningQuery>SELECT 
+      [NhanVien].[ID] AS [ID], 
+      [NhanVien].[hoTen] AS [hoTen], 
+      [NhanVien].[ngaySinh] AS [ngaySinh], 
+      [NhanVien].[diaChi] AS [diaChi], 
+      [NhanVien].[tienLuong] AS [tienLuong], 
+      [NhanVien].[ngheNghiep] AS [ngheNghiep], 
+      [NhanVien].[thuocTinhKhac] AS [thuocTinhKhac]
+      FROM [NhanVien] AS [NhanVien]</DefiningQuery>
+          </EntitySet>
+        </EntityContainer>
+        <!--Errors Found During Generation:
+      warning 6002: The table/view 'main.NhanVien' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+        <EntityType Name="NhanVien">
+          <Key>
+            <PropertyRef Name="ID" />
+            <PropertyRef Name="hoTen" />
+            <PropertyRef Name="ngaySinh" />
+            <PropertyRef Name="diaChi" />
+            <PropertyRef Name="tienLuong" />
+            <PropertyRef Name="ngheNghiep" />
+            <PropertyRef Name="thuocTinhKhac" />
+          </Key>
+          <Property Name="ID" Type="int" Nullable="false" />
+          <Property Name="hoTen" Type="nvarchar" Nullable="false" />
+          <Property Name="ngaySinh" Type="datetime" Nullable="false" />
+          <Property Name="diaChi" Type="nvarchar" Nullable="false" />
+          <Property Name="tienLuong" Type="float" Nullable="false" />
+          <Property Name="ngheNghiep" Type="nvarchar" Nullable="false" />
+          <Property Name="thuocTinhKhac" Type="nvarchar" Nullable="false" />
+        </EntityType>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="dbSqliteModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+        <EntityContainer Name="dbSqliteEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="NhanViens" EntityType="dbSqliteModel.NhanVien" />
+        </EntityContainer>
+        <EntityType Name="NhanVien">
+          <Key>
+            <PropertyRef Name="ID" />
+            <PropertyRef Name="hoTen" />
+            <PropertyRef Name="ngaySinh" />
+            <PropertyRef Name="diaChi" />
+            <PropertyRef Name="tienLuong" />
+            <PropertyRef Name="ngheNghiep" />
+            <PropertyRef Name="thuocTinhKhac" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" />
+          <Property Name="hoTen" Type="String" Nullable="false" MaxLength="2147483647" Unicode="true" FixedLength="false" />
+          <Property Name="ngaySinh" Type="DateTime" Nullable="false" />
+          <Property Name="diaChi" Type="String" Nullable="false" MaxLength="2147483647" Unicode="true" FixedLength="false" />
+          <Property Name="tienLuong" Type="Double" Nullable="false" />
+          <Property Name="ngheNghiep" Type="String" Nullable="false" MaxLength="2147483647" Unicode="true" FixedLength="false" />
+          <Property Name="thuocTinhKhac" Type="String" Nullable="false" MaxLength="2147483647" Unicode="true" FixedLength="false" />
+        </EntityType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="dbSqliteModelStoreContainer" CdmEntityContainer="dbSqliteEntities">
+          <EntitySetMapping Name="NhanViens"><EntityTypeMapping TypeName="dbSqliteModel.NhanVien"><MappingFragment StoreEntitySet="NhanVien">
+            <ScalarProperty Name="ID" ColumnName="ID" />
+            <ScalarProperty Name="hoTen" ColumnName="hoTen" />
+            <ScalarProperty Name="ngaySinh" ColumnName="ngaySinh" />
+            <ScalarProperty Name="diaChi" ColumnName="diaChi" />
+            <ScalarProperty Name="tienLuong" ColumnName="tienLuong" />
+            <ScalarProperty Name="ngheNghiep" ColumnName="ngheNghiep" />
+            <ScalarProperty Name="thuocTinhKhac" ColumnName="thuocTinhKhac" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2008/10/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="True" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="True" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams>
+      <Diagram Name="Model1">
+        <EntityTypeShape EntityType="dbSqliteModel.NhanVien" Width="1.5" PointX="1.875" PointY="1.25" Height="2.226339518229167" IsExpanded="true" />
+      </Diagram>
+    </Diagrams>
+  </Designer>
+</edmx:Edmx>

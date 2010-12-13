@@ -1,0 +1,55 @@
+﻿<Window x:Class="QLNV.Presentation.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525" ResizeMode="NoResize" MouseDoubleClick="MouseClickMaSoNhanVienTextBox">
+    <Grid ShowGridLines="True">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+        </Grid.RowDefinitions>
+        <TabControl Height="311" HorizontalAlignment="Left" Name="tabControl1" VerticalAlignment="Top" Width="503" Margin="0,-2,0,0">
+            <TabItem Header="Thêm nhân viên" Name="tabItem1">
+                <Grid>
+                    <Button Content="Add" Height="23" HorizontalAlignment="Center" Name="button1" VerticalAlignment="Bottom" Width="75" Click="AddNhanVienClick" Margin="203,0,215,29" />
+                    <Label Content="MSNV" Height="28" HorizontalAlignment="Left" Margin="215,18,0,0" Name="lMsnv" VerticalAlignment="Top" />
+                    <Label Content="Họ tên" Height="28" HorizontalAlignment="Left" Margin="215,49,0,0" Name="lHoTen" VerticalAlignment="Top" />
+                    <Label Content="Địa chỉ" Height="28" HorizontalAlignment="Left" Margin="215,0,0,141" Name="lDiaChi" VerticalAlignment="Bottom" />
+                    <TextBox Height="23" HorizontalAlignment="Left" Margin="272,20,0,0" Name="txtMSNV" VerticalAlignment="Top" Width="185" TextChanged="MsnvChanged" />
+                    <TextBox Height="23" HorizontalAlignment="Left" Margin="272,49,0,0" Name="txtHoTen" VerticalAlignment="Top" Width="185" />
+                    <TextBox Height="23" HorizontalAlignment="Left" Margin="272,107,0,0" Name="txtDiaChi" VerticalAlignment="Top" Width="185" />
+                    <Label Content="Số ngày công" Height="28" HorizontalAlignment="Left" Margin="180,134,0,0" Name="lSo" VerticalAlignment="Top" />
+                    <Label Content="Đơn giá mỗi ngày công" Height="28" HorizontalAlignment="Left" Margin="134,160,0,0" Name="lDonGia" VerticalAlignment="Top" />
+                    <TextBox Height="23" HorizontalAlignment="Left" Margin="272,136,0,0" Name="txtSo" VerticalAlignment="Top" Width="185" TextChanged="MsnvChanged" />
+                    <TextBox Height="23" HorizontalAlignment="Left" Margin="272,165,0,0" Name="txtDonGia" VerticalAlignment="Top" Width="185" TextChanged="TxtDonGiaNgayCongTang" />
+                    <ComboBox HorizontalAlignment="Left" Margin="14,15,0,237" Name="cbNhanVien" Width="140" SelectionChanged="ComboBox1SelectionChanged">
+                        <ComboBoxItem IsSelected="True" Name="nvvp">Nhân viên văn phòng</ComboBoxItem>
+                        <ComboBoxItem Name="nvsx">Nhân viên sản xuất</ComboBoxItem>
+                    </ComboBox>
+                    <Label Content="Ngày sinh" Height="28" HorizontalAlignment="Left" Margin="198,78,0,0" Name="lNgaySinh" VerticalAlignment="Top" />
+                    <DatePicker Height="25" Margin="272,78,36,0" Name="dNgaySinh" VerticalAlignment="Top" />
+                    <Image Height="198" HorizontalAlignment="Left" Margin="14,51,0,0" Name="image1" Stretch="Fill" VerticalAlignment="Top" Width="114" AllowDrop="True" DragEnter="image1_DragEnter" />
+                </Grid>
+            </TabItem>
+            <TabItem Header="Tìm kiếm" GotFocus="IsFocusedTabTimKiem">
+                <Grid>
+                    <Grid Height="264" HorizontalAlignment="Left" Margin="6,6,0,0" Name="grid1" VerticalAlignment="Top" Width="481">
+                        <Label Content="MSNV" Height="28" HorizontalAlignment="Left" Margin="6,54,0,0" Name="lMSNV" VerticalAlignment="Top" FontSize="12" />
+                        <Label Content="Họ tên" Height="28" HorizontalAlignment="Left" Margin="6,76,0,0" Name="lhoTen" VerticalAlignment="Top" FontSize="12" />
+                        <Label Content="Địa chỉ" Height="28" HorizontalAlignment="Left" Margin="6,0,0,116" Name="ldiaChi" VerticalAlignment="Bottom" FontSize="12" />
+                        <Label Content="Số ngày công" Height="28" HorizontalAlignment="Left" Margin="6,142,0,0" Name="l_TimKiemSo" VerticalAlignment="Top" FontSize="12" />
+                        <Label Content="Đơn giá mỗi ngày công" Height="28" HorizontalAlignment="Left" Margin="6,164,0,0" Name="l_TimKiemDonGia" VerticalAlignment="Top" FontSize="12" />
+                        <Label Content="Ngày sinh" Height="28" HorizontalAlignment="Left" Margin="6,98,0,0" Name="lngaySinh" VerticalAlignment="Top" FontSize="12" />
+                        <Label Height="28" HorizontalAlignment="Left" Margin="154,76,0,0" Name="label2" VerticalAlignment="Top" Width="146" FontWeight="Bold" FontStyle="Normal" />
+                        <Label Height="28" HorizontalAlignment="Left" Margin="154,142,0,0" Name="label5" VerticalAlignment="Top" Width="146" FontWeight="Bold" FontStyle="Normal" />
+                        <Label Height="28" HorizontalAlignment="Left" Margin="154,164,0,0" Name="label7" VerticalAlignment="Top" Width="146" FontWeight="Bold" FontStyle="Normal" />
+                        <Label Height="28" HorizontalAlignment="Left" Margin="154,98,0,0" Name="label3" VerticalAlignment="Top" Width="146" FontWeight="Bold" FontStyle="Normal" />
+                        <Label Height="28" HorizontalAlignment="Left" Margin="154,120,0,0" Name="label4" VerticalAlignment="Top" Width="146" FontWeight="Bold" FontStyle="Normal" />
+                        <TextBox Height="24" HorizontalAlignment="Left" Margin="158,54,0,0" Name="txtTimKiem" VerticalAlignment="Top" Width="114" TextChanged="MsnvSearchTextChanged" MouseDoubleClick="MouseClickMaSoNhanVienTextBox" />
+                        <Label Content="Tiền Lương" Height="28" HorizontalAlignment="Left" Margin="6,198,0,0" Name="label1" VerticalAlignment="Top" FontSize="12" />
+                        <Label FontStyle="Normal" FontWeight="Bold" Height="28" HorizontalAlignment="Left" Margin="154,198,0,0" Name="label6" VerticalAlignment="Top" Width="146" />
+                    </Grid>
+                </Grid>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>
