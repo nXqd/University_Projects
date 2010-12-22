@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BUS_WS", "BUS_WS\BUS_WS.csproj", "{77A8E5DC-8781-4D15-A442-388A7F6194D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BUS", "BUS\BUS.csproj", "{05928F75-FF35-45D1-BC3C-7B30F07836B7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{77A8E5DC-8781-4D15-A442-388A7F6194D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77A8E5DC-8781-4D15-A442-388A7F6194D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77A8E5DC-8781-4D15-A442-388A7F6194D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77A8E5DC-8781-4D15-A442-388A7F6194D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05928F75-FF35-45D1-BC3C-7B30F07836B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05928F75-FF35-45D1-BC3C-7B30F07836B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05928F75-FF35-45D1-BC3C-7B30F07836B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05928F75-FF35-45D1-BC3C-7B30F07836B7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

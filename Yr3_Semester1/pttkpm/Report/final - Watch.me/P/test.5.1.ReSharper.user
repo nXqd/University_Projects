@@ -1,0 +1,174 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="3EBDD49E-05E5-435B-86A4-57BFB428E2AF/f:Program.cs" caret="471" fromTop="17" />
+      <File id="3EBDD49E-05E5-435B-86A4-57BFB428E2AF/f:MainForm.cs" caret="4427" fromTop="9" />
+      <File id="3EBDD49E-05E5-435B-86A4-57BFB428E2AF/f:MainForm.Designer.cs" caret="0" fromTop="0" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="3EBDD49E-05E5-435B-86A4-57BFB428E2AF/f:MainForm.cs" caret="4467" fromTop="21" />
+      <File id="3EBDD49E-05E5-435B-86A4-57BFB428E2AF/f:MainForm.cs" caret="886" fromTop="24" />
+      <File id="3EBDD49E-05E5-435B-86A4-57BFB428E2AF/f:MainForm.cs" caret="886" fromTop="20" />
+      <File id="3EBDD49E-05E5-435B-86A4-57BFB428E2AF/f:MainForm.cs" caret="4467" fromTop="21" />
+      <File id="3EBDD49E-05E5-435B-86A4-57BFB428E2AF/f:MainForm.cs" caret="1279" fromTop="31" />
+      <File id="3EBDD49E-05E5-435B-86A4-57BFB428E2AF/f:MainForm.cs" caret="847" fromTop="20" />
+      <File id="3EBDD49E-05E5-435B-86A4-57BFB428E2AF/f:MainForm.cs" caret="1449" fromTop="17" />
+      <File id="3EBDD49E-05E5-435B-86A4-57BFB428E2AF/f:MainForm.cs" caret="1596" fromTop="35" />
+      <File id="3EBDD49E-05E5-435B-86A4-57BFB428E2AF/f:MainForm.cs" caret="980" fromTop="25" />
+      <File id="3EBDD49E-05E5-435B-86A4-57BFB428E2AF/f:MainForm.cs" caret="2495" fromTop="25" />
+      <File id="3EBDD49E-05E5-435B-86A4-57BFB428E2AF/f:MainForm.cs" caret="3026" fromTop="32" />
+      <File id="3EBDD49E-05E5-435B-86A4-57BFB428E2AF/f:MainForm.cs" caret="2842" fromTop="33" />
+      <File id="3EBDD49E-05E5-435B-86A4-57BFB428E2AF/f:MainForm.cs" caret="3387" fromTop="22" />
+      <File id="3EBDD49E-05E5-435B-86A4-57BFB428E2AF/f:MainForm.cs" caret="3068" fromTop="29" />
+      <File id="3EBDD49E-05E5-435B-86A4-57BFB428E2AF/f:MainForm.cs" caret="2069" fromTop="14" />
+      <File id="3EBDD49E-05E5-435B-86A4-57BFB428E2AF/f:MainForm.cs" caret="2466" fromTop="24" />
+      <File id="3EBDD49E-05E5-435B-86A4-57BFB428E2AF/f:MainForm.cs" caret="1660" fromTop="15" />
+      <File id="3EBDD49E-05E5-435B-86A4-57BFB428E2AF/f:MainForm.cs" caret="1089" fromTop="32" />
+      <File id="3EBDD49E-05E5-435B-86A4-57BFB428E2AF/f:MainForm.cs" caret="4037" fromTop="28" />
+      <File id="3EBDD49E-05E5-435B-86A4-57BFB428E2AF/f:MainForm.cs" caret="4467" fromTop="31" />
+      <File id="3EBDD49E-05E5-435B-86A4-57BFB428E2AF/f:MainForm.cs" caret="531" fromTop="18" />
+      <File id="3EBDD49E-05E5-435B-86A4-57BFB428E2AF/f:MainForm.cs" caret="4028" fromTop="28" />
+      <File id="3EBDD49E-05E5-435B-86A4-57BFB428E2AF/f:Program.cs" caret="471" fromTop="17" />
+      <File id="3EBDD49E-05E5-435B-86A4-57BFB428E2AF/f:Program.cs" caret="496" fromTop="17" />
+      <File id="3EBDD49E-05E5-435B-86A4-57BFB428E2AF/f:MainForm.cs" caret="3850" fromTop="29" />
+      <File id="3EBDD49E-05E5-435B-86A4-57BFB428E2AF/f:MainForm.cs" caret="3189" fromTop="18" />
+      <File id="3EBDD49E-05E5-435B-86A4-57BFB428E2AF/f:MainForm.Designer.cs" caret="0" fromTop="0" />
+      <File id="3EBDD49E-05E5-435B-86A4-57BFB428E2AF/f:MainForm.cs" caret="298" fromTop="11" />
+      <File id="3EBDD49E-05E5-435B-86A4-57BFB428E2AF/f:MainForm.cs" caret="4467" fromTop="9" />
+      <File id="3EBDD49E-05E5-435B-86A4-57BFB428E2AF/f:MainForm.cs" caret="4427" fromTop="9" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="MainForm`0" priority="0" />
+      <Item value="txtPass" priority="0" />
+      <Item value="false" priority="7" />
+      <Item value="xtMain" priority="5" />
+      <Item value="tMain" priority="2" />
+      <Item value="DefaultBoolean`0" priority="0" />
+      <Item value="xtWelcome" priority="1" />
+      <Item value="nav" priority="0" />
+      <Item value="bLogout" priority="1" />
+      <Item value="private" priority="2" />
+      <Item value="List" priority="3" />
+      <Item value="var" priority="1" />
+      <Item value="new" priority="1" />
+      <Item value="isValidEmail`0" priority="0" />
+      <Item value="textEdit6" priority="1" />
+      <Item value="lc10" priority="7" />
+      <Item value="string" priority="0" />
+      <Item value="BUS_WS" priority="1" />
+      <Item value="using" priority="1" />
+      <Item value="test" priority="0" />
+      <Item value="Service1SoapClient`0" priority="0" />
+      <Item value="Service1SoapClient" priority="0" />
+      <Item value="_ws" priority="1" />
+      <Item value="if" priority="7" />
+      <Item value="textEdit4" priority="1" />
+      <Item value="Users" priority="0" />
+      <Item value="labelControl9" priority="4" />
+      <Item value="else" priority="3" />
+      <Item value="DXSystemColors`0" priority="0" />
+      <Item value="ForeColor" priority="2" />
+      <Item value="Control`0" priority="0" />
+      <Item value="Color`0" priority="6" />
+      <Item value="e" priority="0" />
+      <Item value="Text" priority="0" />
+      <Item value="textEdit3" priority="0" />
+      <Item value="labelControl7" priority="4" />
+      <Item value="IsValidEmail`0" priority="0" />
+      <Item value="tUser" priority="0" />
+      <Item value="tPass" priority="0" />
+      <Item value="MemberDTO`0" priority="0" />
+      <Item value="mDTO" priority="2" />
+      <Item value="LicFileLicenseProvider`0" priority="0" />
+      <Item value="lFail" priority="3" />
+      <Item value="true" priority="3" />
+      <Item value="null" priority="0" />
+      <Item value="bRegister" priority="0" />
+      <Item value="System" priority="0" />
+      <Item value="Threading" priority="0" />
+      <Item value="Thread`0" priority="0" />
+      <Item value="xtWelcomeInside" priority="0" />
+      <Item value="xtWelcomeLogin" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DevExpress.XtraEditors.TextEdit">
+      <Item value="Text" priority="7" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DevExpress.XtraTab.XtraTabPage">
+      <Item value="Hide`0" priority="0" />
+      <Item value="PageEnabled" priority="0" />
+      <Item value="PageVisible" priority="0" />
+      <Item value="Controls" priority="0" />
+      <Item value="TabControl" priority="0" />
+      <Item value="Region" priority="0" />
+      <Item value="Top" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DevExpress.XtraTab.XtraTabControl">
+      <Item value="Visible" priority="0" />
+      <Item value="Top" priority="0" />
+      <Item value="ShowTabHeader" priority="0" />
+      <Item value="SelectedTabPage" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@DevExpress.Utils.DefaultBoolean">
+      <Item value="False" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DevExpress.XtraNavBar.NavBarControl">
+      <Item value="Enabled" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DevExpress.XtraEditors.SimpleButton">
+      <Item value="Enabled" priority="1" />
+      <Item value="Text" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DevExpress.XtraEditors.LabelControl">
+      <Item value="Text" priority="8" />
+      <Item value="ForeColor" priority="9" />
+      <Item value="Font" priority="0" />
+      <Item value="Enabled" priority="1" />
+      <Item value="Visible" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:test.BUS_WS.Service1SoapClient">
+      <Item value="GetMembers`0" priority="0" />
+      <Item value="Login`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.String">
+      <Item value="Count`1" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
+      <Item value="Contains`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Drawing.Color">
+      <Item value="Name" priority="0" />
+      <Item value="IsKnownColor" priority="1" />
+      <Item value="IsNamedColor" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Forms.Control">
+      <Item value="DefaultForeColor" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Drawing.Color">
+      <Item value="Red" priority="2" />
+      <Item value="Green" priority="5" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Threading.Thread">
+      <Item value="Sleep`0" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

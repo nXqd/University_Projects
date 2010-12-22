@@ -1,0 +1,537 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="HelloWorld">
+        <s:complexType />
+      </s:element>
+      <s:element name="HelloWorldResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="HelloWorldResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetMembers">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetMembersResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetMembersResult" type="tns:ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfString">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="string" nillable="true" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="Login">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="usr" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pass" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="LoginResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="LoginResult" type="tns:MemberDTO" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="MemberDTO">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Name" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Phone" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Email" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Type" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="XmlDetails" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="Logout">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="name" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="LogoutResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="Register">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="name" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="phone" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="email" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="xmlDetails" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="typeID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="usr" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pass" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RegisterResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="DeleteMember">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="usr" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DeleteMemberResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="InsertFilm">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dto" type="tns:FilmDTO" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="FilmDTO">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Name" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Description" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="TrailerURI" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PosterURI" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="Rating" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="RateTimes" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="Genres" type="tns:ArrayOfString" />
+          <s:element minOccurs="0" maxOccurs="1" name="Details" type="tns:ArrayOfString" />
+          <s:element minOccurs="0" maxOccurs="1" name="Creators" type="tns:ArrayOfString" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="InsertFilmResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="RateFilm">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="name" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="rate" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RateFilmResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="SearchFilmByName">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="name" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SearchFilmByNameResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SearchFilmByNameResult" type="tns:ArrayOfFilmDTO" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfFilmDTO">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="FilmDTO" nillable="true" type="tns:FilmDTO" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="UpdateFilm">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="id" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="dto" type="tns:FilmDTO" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateFilmResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="InsertCreator">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="name" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="birth" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="travia" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="details" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="typeNames" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="InsertCreatorResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="UpdateCreator">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="name" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="birth" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="travia" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="details" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="typeNames" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateCreatorResponse">
+        <s:complexType />
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="HelloWorldSoapIn">
+    <wsdl:part name="parameters" element="tns:HelloWorld" />
+  </wsdl:message>
+  <wsdl:message name="HelloWorldSoapOut">
+    <wsdl:part name="parameters" element="tns:HelloWorldResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetMembersSoapIn">
+    <wsdl:part name="parameters" element="tns:GetMembers" />
+  </wsdl:message>
+  <wsdl:message name="GetMembersSoapOut">
+    <wsdl:part name="parameters" element="tns:GetMembersResponse" />
+  </wsdl:message>
+  <wsdl:message name="LoginSoapIn">
+    <wsdl:part name="parameters" element="tns:Login" />
+  </wsdl:message>
+  <wsdl:message name="LoginSoapOut">
+    <wsdl:part name="parameters" element="tns:LoginResponse" />
+  </wsdl:message>
+  <wsdl:message name="LogoutSoapIn">
+    <wsdl:part name="parameters" element="tns:Logout" />
+  </wsdl:message>
+  <wsdl:message name="LogoutSoapOut">
+    <wsdl:part name="parameters" element="tns:LogoutResponse" />
+  </wsdl:message>
+  <wsdl:message name="RegisterSoapIn">
+    <wsdl:part name="parameters" element="tns:Register" />
+  </wsdl:message>
+  <wsdl:message name="RegisterSoapOut">
+    <wsdl:part name="parameters" element="tns:RegisterResponse" />
+  </wsdl:message>
+  <wsdl:message name="DeleteMemberSoapIn">
+    <wsdl:part name="parameters" element="tns:DeleteMember" />
+  </wsdl:message>
+  <wsdl:message name="DeleteMemberSoapOut">
+    <wsdl:part name="parameters" element="tns:DeleteMemberResponse" />
+  </wsdl:message>
+  <wsdl:message name="InsertFilmSoapIn">
+    <wsdl:part name="parameters" element="tns:InsertFilm" />
+  </wsdl:message>
+  <wsdl:message name="InsertFilmSoapOut">
+    <wsdl:part name="parameters" element="tns:InsertFilmResponse" />
+  </wsdl:message>
+  <wsdl:message name="RateFilmSoapIn">
+    <wsdl:part name="parameters" element="tns:RateFilm" />
+  </wsdl:message>
+  <wsdl:message name="RateFilmSoapOut">
+    <wsdl:part name="parameters" element="tns:RateFilmResponse" />
+  </wsdl:message>
+  <wsdl:message name="SearchFilmByNameSoapIn">
+    <wsdl:part name="parameters" element="tns:SearchFilmByName" />
+  </wsdl:message>
+  <wsdl:message name="SearchFilmByNameSoapOut">
+    <wsdl:part name="parameters" element="tns:SearchFilmByNameResponse" />
+  </wsdl:message>
+  <wsdl:message name="UpdateFilmSoapIn">
+    <wsdl:part name="parameters" element="tns:UpdateFilm" />
+  </wsdl:message>
+  <wsdl:message name="UpdateFilmSoapOut">
+    <wsdl:part name="parameters" element="tns:UpdateFilmResponse" />
+  </wsdl:message>
+  <wsdl:message name="InsertCreatorSoapIn">
+    <wsdl:part name="parameters" element="tns:InsertCreator" />
+  </wsdl:message>
+  <wsdl:message name="InsertCreatorSoapOut">
+    <wsdl:part name="parameters" element="tns:InsertCreatorResponse" />
+  </wsdl:message>
+  <wsdl:message name="UpdateCreatorSoapIn">
+    <wsdl:part name="parameters" element="tns:UpdateCreator" />
+  </wsdl:message>
+  <wsdl:message name="UpdateCreatorSoapOut">
+    <wsdl:part name="parameters" element="tns:UpdateCreatorResponse" />
+  </wsdl:message>
+  <wsdl:portType name="Service1Soap">
+    <wsdl:operation name="HelloWorld">
+      <wsdl:input message="tns:HelloWorldSoapIn" />
+      <wsdl:output message="tns:HelloWorldSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMembers">
+      <wsdl:input message="tns:GetMembersSoapIn" />
+      <wsdl:output message="tns:GetMembersSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Login">
+      <wsdl:input message="tns:LoginSoapIn" />
+      <wsdl:output message="tns:LoginSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Logout">
+      <wsdl:input message="tns:LogoutSoapIn" />
+      <wsdl:output message="tns:LogoutSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Register">
+      <wsdl:input message="tns:RegisterSoapIn" />
+      <wsdl:output message="tns:RegisterSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteMember">
+      <wsdl:input message="tns:DeleteMemberSoapIn" />
+      <wsdl:output message="tns:DeleteMemberSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertFilm">
+      <wsdl:input message="tns:InsertFilmSoapIn" />
+      <wsdl:output message="tns:InsertFilmSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="RateFilm">
+      <wsdl:input message="tns:RateFilmSoapIn" />
+      <wsdl:output message="tns:RateFilmSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SearchFilmByName">
+      <wsdl:input message="tns:SearchFilmByNameSoapIn" />
+      <wsdl:output message="tns:SearchFilmByNameSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateFilm">
+      <wsdl:input message="tns:UpdateFilmSoapIn" />
+      <wsdl:output message="tns:UpdateFilmSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertCreator">
+      <wsdl:input message="tns:InsertCreatorSoapIn" />
+      <wsdl:output message="tns:InsertCreatorSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateCreator">
+      <wsdl:input message="tns:UpdateCreatorSoapIn" />
+      <wsdl:output message="tns:UpdateCreatorSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="Service1Soap" type="tns:Service1Soap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="HelloWorld">
+      <soap:operation soapAction="http://tempuri.org/HelloWorld" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMembers">
+      <soap:operation soapAction="http://tempuri.org/GetMembers" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Login">
+      <soap:operation soapAction="http://tempuri.org/Login" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Logout">
+      <soap:operation soapAction="http://tempuri.org/Logout" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Register">
+      <soap:operation soapAction="http://tempuri.org/Register" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteMember">
+      <soap:operation soapAction="http://tempuri.org/DeleteMember" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertFilm">
+      <soap:operation soapAction="http://tempuri.org/InsertFilm" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RateFilm">
+      <soap:operation soapAction="http://tempuri.org/RateFilm" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearchFilmByName">
+      <soap:operation soapAction="http://tempuri.org/SearchFilmByName" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateFilm">
+      <soap:operation soapAction="http://tempuri.org/UpdateFilm" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertCreator">
+      <soap:operation soapAction="http://tempuri.org/InsertCreator" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateCreator">
+      <soap:operation soapAction="http://tempuri.org/UpdateCreator" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="Service1Soap12" type="tns:Service1Soap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="HelloWorld">
+      <soap12:operation soapAction="http://tempuri.org/HelloWorld" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMembers">
+      <soap12:operation soapAction="http://tempuri.org/GetMembers" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Login">
+      <soap12:operation soapAction="http://tempuri.org/Login" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Logout">
+      <soap12:operation soapAction="http://tempuri.org/Logout" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Register">
+      <soap12:operation soapAction="http://tempuri.org/Register" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteMember">
+      <soap12:operation soapAction="http://tempuri.org/DeleteMember" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertFilm">
+      <soap12:operation soapAction="http://tempuri.org/InsertFilm" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RateFilm">
+      <soap12:operation soapAction="http://tempuri.org/RateFilm" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearchFilmByName">
+      <soap12:operation soapAction="http://tempuri.org/SearchFilmByName" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateFilm">
+      <soap12:operation soapAction="http://tempuri.org/UpdateFilm" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertCreator">
+      <soap12:operation soapAction="http://tempuri.org/InsertCreator" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateCreator">
+      <soap12:operation soapAction="http://tempuri.org/UpdateCreator" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Service1">
+    <wsdl:port name="Service1Soap" binding="tns:Service1Soap">
+      <soap:address location="http://localhost:1000/DAL_WebService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="Service1Soap12" binding="tns:Service1Soap12">
+      <soap12:address location="http://localhost:1000/DAL_WebService.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
