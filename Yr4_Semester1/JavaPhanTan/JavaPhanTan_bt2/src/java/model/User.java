@@ -9,6 +9,7 @@ package model;
  * @author nXqd
  */
 public class User {
+
 	int _id;
 	String _username;
 	String _password;
@@ -72,5 +73,4 @@ public class User {
 	public void setUsername(String _username) {
 		this._username = _username;
 	}
-
 }

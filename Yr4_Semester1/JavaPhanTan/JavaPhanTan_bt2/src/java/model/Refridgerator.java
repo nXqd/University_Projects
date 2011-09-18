@@ -9,131 +9,140 @@ package model;
  * @author nXqd
  */
 public class Refridgerator {
-    int _id;
-    String _name;
-    String _manufacturor;
-    String _capacity;
-    String _doorStyle;
-    int _doorCount;
-    String _feature;
-    String _composition;
-    String _power;
-    String _size;
-    float _price;
-    String _warranty;
-    int _quantity;
-    boolean _status;
 
-    public String getCapacity() {
-        return _capacity;
-    }
+	int _id;
+	String _name;
+	String _manufacturor;
+	String _capacity;
+	String _doorStyle;
+	int _doorCount;
+	String _feature;
+	String _composition;
+	String _power;
+	String _size;
+	float _price;
+	String _warranty;
+	int _quantity;
+	boolean _status;
+	String _images;
 
-    public void setCapacity(String _capacity) {
-        this._capacity = _capacity;
-    }
+	public String getCapacity() {
+		return _capacity;
+	}
 
-    public String getComposition() {
-        return _composition;
-    }
+	public void setCapacity(String _capacity) {
+		this._capacity = _capacity;
+	}
 
-    public void setComposition(String _composition) {
-        this._composition = _composition;
-    }
+	public String getComposition() {
+		return _composition;
+	}
 
-    public int getDoorCount() {
-        return _doorCount;
-    }
+	public void setComposition(String _composition) {
+		this._composition = _composition;
+	}
 
-    public void setDoorCount(int _doorCount) {
-        this._doorCount = _doorCount;
-    }
+	public int getDoorCount() {
+		return _doorCount;
+	}
 
-    public String getDoorStyle() {
-        return _doorStyle;
-    }
+	public void setDoorCount(int _doorCount) {
+		this._doorCount = _doorCount;
+	}
 
-    public void setDoorStyle(String _doorStyle) {
-        this._doorStyle = _doorStyle;
-    }
+	public String getDoorStyle() {
+		return _doorStyle;
+	}
 
-    public String getFeature() {
-        return _feature;
-    }
+	public void setDoorStyle(String _doorStyle) {
+		this._doorStyle = _doorStyle;
+	}
 
-    public void setFeature(String _feature) {
-        this._feature = _feature;
-    }
+	public String getFeature() {
+		return _feature;
+	}
 
-    public int getId() {
-        return _id;
-    }
+	public void setFeature(String _feature) {
+		this._feature = _feature;
+	}
 
-    public void setId(int _id) {
-        this._id = _id;
-    }
+	public int getId() {
+		return _id;
+	}
 
-    public String getManufacturor() {
-        return _manufacturor;
-    }
+	public void setId(int _id) {
+		this._id = _id;
+	}
 
-    public void setManufacturor(String _manufacturor) {
-        this._manufacturor = _manufacturor;
-    }
+	public String getManufacturor() {
+		return _manufacturor;
+	}
 
-    public String getName() {
-        return _name;
-    }
+	public void setManufacturor(String _manufacturor) {
+		this._manufacturor = _manufacturor;
+	}
 
-    public void setName(String _name) {
-        this._name = _name;
-    }
+	public String getName() {
+		return _name;
+	}
 
-    public String getPower() {
-        return _power;
-    }
+	public void setName(String _name) {
+		this._name = _name;
+	}
 
-    public void setPower(String _power) {
-        this._power = _power;
-    }
+	public String getPower() {
+		return _power;
+	}
 
-    public float getPrice() {
-        return _price;
-    }
+	public void setPower(String _power) {
+		this._power = _power;
+	}
 
-    public void setPrice(float _price) {
-        this._price = _price;
-    }
+	public float getPrice() {
+		return _price;
+	}
 
-    public int getQuantity() {
-        return _quantity;
-    }
+	public void setPrice(float _price) {
+		this._price = _price;
+	}
 
-    public void setQuantity(int _quantity) {
-        this._quantity = _quantity;
-    }
+	public int getQuantity() {
+		return _quantity;
+	}
 
-    public String getSize() {
-        return _size;
-    }
+	public void setQuantity(int _quantity) {
+		this._quantity = _quantity;
+	}
 
-    public void setSize(String _size) {
-        this._size = _size;
-    }
+	public String getSize() {
+		return _size;
+	}
 
-    public boolean isStatus() {
-        return _status;
-    }
+	public void setSize(String _size) {
+		this._size = _size;
+	}
 
-    public void setStatus(boolean _status) {
-        this._status = _status;
-    }
+	public boolean isStatus() {
+		return _status;
+	}
 
-    public String getWarranty() {
-        return _warranty;
-    }
+	public void setStatus(boolean _status) {
+		this._status = _status;
+	}
 
-    public void setWarranty(String _warranty) {
-        this._warranty = _warranty;
-    }
-            
+	public String getWarranty() {
+		return _warranty;
+	}
+
+	public void setWarranty(String _warranty) {
+		this._warranty = _warranty;
+	}
+
+	public String getImages() {
+		return _images;
+	}
+
+	public void setImages(String _images) {
+		this._images = _images;
+	}
 }
