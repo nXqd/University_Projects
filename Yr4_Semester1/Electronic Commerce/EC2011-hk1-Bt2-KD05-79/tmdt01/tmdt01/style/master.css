@@ -1,0 +1,56 @@
+﻿/* Makeshift CSS Reset */
+{
+    margin: 0;
+    padding: 0;
+}
+
+/* Tell the browser to render HTML 5 elements as block */
+header, footer, aside, nav, article {
+    display: block;
+}
+
+body {
+    margin: 0 auto;
+    width: 800px;
+    font: 13px/22px Verdana, sans-serif;
+    background: #000 url('../images/bg.png') no-repeat 250px 0px;
+}
+
+a {
+    text-decoration: none;
+    font: italic bold 20px Georgia, serif;
+    color: #b3b3b3;
+}
+
+ul#nav {
+    line-height: 5em;
+}
+
+ul li {
+    list-style: none;
+}
+
+/* nav */
+nav {
+    left:0;
+    float:left;
+}
+
+nav, #main {
+    margin-top: 230px;
+}
+
+/* main section */
+#main {
+    position: absolute;
+    margin-left:500px;
+    color:#a31010;
+    font-family: "Adobe Caslon Pro", "Hoefler Text", Georgia, Garamond, Times, serif;
+    letter-spacing:0.1em;
+    text-align:center;
+    text-transform: lowercase;
+    line-height: 50px;
+    font-size: 15pt;
+    font-variant: small-caps;
+
+}

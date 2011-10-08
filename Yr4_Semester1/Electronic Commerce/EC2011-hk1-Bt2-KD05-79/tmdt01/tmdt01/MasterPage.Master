@@ -1,0 +1,32 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="tmdt01.MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+    <head runat="server">
+        <meta charset="utf-8" />
+        <link rel="stylesheet" type="text/css" href="style/master.css" />
+        <asp:ContentPlaceHolder ID="head" runat="server">
+        </asp:ContentPlaceHolder>
+    </head>
+    <body>
+
+        <header>nXqd Portfolio</header>
+        <aside>
+            <!-- Side bar -->
+            <nav>
+                <ul id="nav">
+                    <li><a href="Home.aspx">Home</a></li>
+                    <li><a href="Personal.aspx">Personal</a></li>
+                    <li><a href="Activities.aspx">Activities</a></li>
+                    <li><a href="Contact.aspx">Contact</a></li>
+                </ul>
+            </nav>
+        </aside>
+        <section id="main">
+            <!-- Main area -->
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </section>
+    </body>
+</html>

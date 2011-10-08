@@ -1,0 +1,5 @@
+D:\dev\asp\QLHS_WCF\QLHS_WCF\bin\QLHS_WCF.dll
+D:\dev\asp\QLHS_WCF\QLHS_WCF\bin\QLHS_WCF.pdb
+D:\dev\asp\QLHS_WCF\QLHS_WCF\obj\Debug\ResolveAssemblyReference.cache
+D:\dev\asp\QLHS_WCF\QLHS_WCF\obj\Debug\QLHS_WCF.dll
+D:\dev\asp\QLHS_WCF\QLHS_WCF\obj\Debug\QLHS_WCF.pdb
