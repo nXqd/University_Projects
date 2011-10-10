@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="2110a04d-1390-46ff-a796-8ce60ca4f43a" name="Administrator@ANDONGNHI 2011-10-07 12:52:43" runUser="ANDONGNHI\Administrator" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="e9955733-7b9e-4df8-b2cb-ea16ed124569">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Administrator_ANDONGNHI 2011-10-07 12_52_43">
+      <DeploymentItem filename="D:\Dropbox\dev\REST-QLHS\REST-QLHS\bin\REST-QLHS.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-10-07T12:52:43.7734037+07:00" queuing="2011-10-07T12:53:25.0627654+07:00" start="2011-10-07T12:53:26.5788521+07:00" finish="2011-10-07T12:54:01.9828771+07:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="8" executed="8" error="0" failed="8" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="GetAllTest" storage="d:\dropbox\dev\rest-qlhs\rest-qlhs-unittest\bin\debug\rest-qlhs-unittest.dll" id="d6c3ddfb-cbae-f3f2-e79f-fde33fca0bd1">
+      <Execution id="3a917163-a8be-4c79-baea-4c13c408506c" />
+      <TestMethod codeBase="D:/Dropbox/dev/REST-QLHS/REST-QLHS-UnitTest/bin/Debug/REST-QLHS-UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="REST_QLHS_UnitTest.StudentDAOTest, REST-QLHS-UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetAllTest" />
+      <AspNet webSiteUrl="http://localhost:3978/">
+        <Host pathToWebApp="D:\Dropbox\dev\REST-QLHS\REST-QLHS" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="CreateTest" storage="d:\dropbox\dev\rest-qlhs\rest-qlhs-unittest\bin\debug\rest-qlhs-unittest.dll" id="a19eaf9e-b079-18a5-2702-88be03fc7580">
+      <Execution id="c05f09c5-ceb8-4793-b351-89ae4da44c75" />
+      <TestMethod codeBase="D:/Dropbox/dev/REST-QLHS/REST-QLHS-UnitTest/bin/Debug/REST-QLHS-UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="REST_QLHS_UnitTest.StudentDAOTest, REST-QLHS-UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CreateTest" />
+      <AspNet webSiteUrl="http://localhost:3978/">
+        <Host pathToWebApp="D:\Dropbox\dev\REST-QLHS\REST-QLHS" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="GetTest" storage="d:\dropbox\dev\rest-qlhs\rest-qlhs-unittest\bin\debug\rest-qlhs-unittest.dll" id="1517419f-c72c-623d-563c-d1d759b1d24d">
+      <Execution id="ea53ec8b-d459-4cd0-8b4e-f91a513488a5" />
+      <TestMethod codeBase="D:/Dropbox/dev/REST-QLHS/REST-QLHS-UnitTest/bin/Debug/REST-QLHS-UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="REST_QLHS_UnitTest.StudentDAOTest, REST-QLHS-UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetTest" />
+      <AspNet webSiteUrl="http://localhost:3978/">
+        <Host pathToWebApp="D:\Dropbox\dev\REST-QLHS\REST-QLHS" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="ConnTest" storage="d:\dropbox\dev\rest-qlhs\rest-qlhs-unittest\bin\debug\rest-qlhs-unittest.dll" id="6df67904-c0b6-191f-3910-60d90aa0e58f">
+      <DeploymentItems>
+        <DeploymentItem filename="REST-QLHS.dll" />
+      </DeploymentItems>
+      <Execution id="6044d0ff-bab5-4c2c-8c33-206d27e66586" />
+      <TestMethod codeBase="D:/Dropbox/dev/REST-QLHS/REST-QLHS-UnitTest/bin/Debug/REST-QLHS-UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="REST_QLHS_UnitTest.DataProviderTest, REST-QLHS-UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ConnTest" />
+      <AspNet webSiteUrl="http://localhost:3978/">
+        <Host pathToWebApp="D:\Dropbox\dev\REST-QLHS\REST-QLHS" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="StudentDAOConstructorTest" storage="d:\dropbox\dev\rest-qlhs\rest-qlhs-unittest\bin\debug\rest-qlhs-unittest.dll" id="866494f6-bbd7-a7f9-5a28-fa884c3e7702">
+      <Execution id="fa687055-8258-442a-b20a-6b0fd3d03c97" />
+      <TestMethod codeBase="D:/Dropbox/dev/REST-QLHS/REST-QLHS-UnitTest/bin/Debug/REST-QLHS-UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="REST_QLHS_UnitTest.StudentDAOTest, REST-QLHS-UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="StudentDAOConstructorTest" />
+      <AspNet webSiteUrl="http://localhost:3978/">
+        <Host pathToWebApp="D:\Dropbox\dev\REST-QLHS\REST-QLHS" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="DeleteTest" storage="d:\dropbox\dev\rest-qlhs\rest-qlhs-unittest\bin\debug\rest-qlhs-unittest.dll" id="f174f887-a81c-97b9-131c-2ffa334db6c5">
+      <Execution id="104a3f91-bde2-4b49-96bf-3bcc7a9344cf" />
+      <TestMethod codeBase="D:/Dropbox/dev/REST-QLHS/REST-QLHS-UnitTest/bin/Debug/REST-QLHS-UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="REST_QLHS_UnitTest.StudentDAOTest, REST-QLHS-UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DeleteTest" />
+      <AspNet webSiteUrl="http://localhost:3978/">
+        <Host pathToWebApp="D:\Dropbox\dev\REST-QLHS\REST-QLHS" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="UpdateTest" storage="d:\dropbox\dev\rest-qlhs\rest-qlhs-unittest\bin\debug\rest-qlhs-unittest.dll" id="12a444ed-3e07-c934-2ba5-e5fd045e7b47">
+      <Execution id="b0c49300-1731-4dfc-ac0b-a5c418e03fcd" />
+      <TestMethod codeBase="D:/Dropbox/dev/REST-QLHS/REST-QLHS-UnitTest/bin/Debug/REST-QLHS-UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="REST_QLHS_UnitTest.StudentDAOTest, REST-QLHS-UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="UpdateTest" />
+      <AspNet webSiteUrl="http://localhost:3978/">
+        <Host pathToWebApp="D:\Dropbox\dev\REST-QLHS\REST-QLHS" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="DataProviderConstructorTest" storage="d:\dropbox\dev\rest-qlhs\rest-qlhs-unittest\bin\debug\rest-qlhs-unittest.dll" id="dc601b4a-88ce-ac74-5694-77938def0006">
+      <Execution id="b9791a39-4b74-46bb-81c8-df0b1064042d" />
+      <TestMethod codeBase="D:/Dropbox/dev/REST-QLHS/REST-QLHS-UnitTest/bin/Debug/REST-QLHS-UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="REST_QLHS_UnitTest.DataProviderTest, REST-QLHS-UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DataProviderConstructorTest" />
+      <AspNet webSiteUrl="http://localhost:3978/">
+        <Host pathToWebApp="D:\Dropbox\dev\REST-QLHS\REST-QLHS" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="dc601b4a-88ce-ac74-5694-77938def0006" executionId="b9791a39-4b74-46bb-81c8-df0b1064042d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6df67904-c0b6-191f-3910-60d90aa0e58f" executionId="6044d0ff-bab5-4c2c-8c33-206d27e66586" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="866494f6-bbd7-a7f9-5a28-fa884c3e7702" executionId="fa687055-8258-442a-b20a-6b0fd3d03c97" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a19eaf9e-b079-18a5-2702-88be03fc7580" executionId="c05f09c5-ceb8-4793-b351-89ae4da44c75" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f174f887-a81c-97b9-131c-2ffa334db6c5" executionId="104a3f91-bde2-4b49-96bf-3bcc7a9344cf" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1517419f-c72c-623d-563c-d1d759b1d24d" executionId="ea53ec8b-d459-4cd0-8b4e-f91a513488a5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d6c3ddfb-cbae-f3f2-e79f-fde33fca0bd1" executionId="3a917163-a8be-4c79-baea-4c13c408506c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="12a444ed-3e07-c934-2ba5-e5fd045e7b47" executionId="b0c49300-1731-4dfc-ac0b-a5c418e03fcd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="b9791a39-4b74-46bb-81c8-df0b1064042d" testId="dc601b4a-88ce-ac74-5694-77938def0006" testName="DataProviderConstructorTest" computerName="ANDONGNHI" startTime="2011-10-07T12:53:28.7849783+07:00" endTime="2011-10-07T12:54:00.8338113+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b9791a39-4b74-46bb-81c8-df0b1064042d">
+      <Output>
+        <ErrorInfo>
+          <Message>The Web request 'http://localhost:3978/' completed successfully without running the test. This can occur when configuring the Web application for testing fails (an ASP.NET server error occurs when processing the request), or when no ASP.NET page is executed (the URL may point to an HTML page, a Web service, or a directory listing). Running tests in ASP.NET requires the URL to resolve to an ASP.NET page and for the page to execute properly up to the Load event. The response from the request is stored in the file 'WebRequestResponse_DataProviderConstruc.html' with the test results; typically this file can be opened with a Web browser to view its contents.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="ANDONGNHI\WebRequestResponse_DataProviderConstruc.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="6044d0ff-bab5-4c2c-8c33-206d27e66586" testId="6df67904-c0b6-191f-3910-60d90aa0e58f" testName="ConnTest" computerName="ANDONGNHI" startTime="2011-10-07T12:54:00.8468121+07:00" endTime="2011-10-07T12:54:01.3018381+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6044d0ff-bab5-4c2c-8c33-206d27e66586">
+      <Output>
+        <ErrorInfo>
+          <Message>The Web request 'http://localhost:3978/' completed successfully without running the test. This can occur when configuring the Web application for testing fails (an ASP.NET server error occurs when processing the request), or when no ASP.NET page is executed (the URL may point to an HTML page, a Web service, or a directory listing). Running tests in ASP.NET requires the URL to resolve to an ASP.NET page and for the page to execute properly up to the Load event. The response from the request is stored in the file 'WebRequestResponse_ConnTest.html' with the test results; typically this file can be opened with a Web browser to view its contents.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="ANDONGNHI\WebRequestResponse_ConnTest.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="fa687055-8258-442a-b20a-6b0fd3d03c97" testId="866494f6-bbd7-a7f9-5a28-fa884c3e7702" testName="StudentDAOConstructorTest" computerName="ANDONGNHI" startTime="2011-10-07T12:54:01.3208392+07:00" endTime="2011-10-07T12:54:01.4528467+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fa687055-8258-442a-b20a-6b0fd3d03c97">
+      <Output>
+        <ErrorInfo>
+          <Message>The Web request 'http://localhost:3978/' completed successfully without running the test. This can occur when configuring the Web application for testing fails (an ASP.NET server error occurs when processing the request), or when no ASP.NET page is executed (the URL may point to an HTML page, a Web service, or a directory listing). Running tests in ASP.NET requires the URL to resolve to an ASP.NET page and for the page to execute properly up to the Load event. The response from the request is stored in the file 'WebRequestResponse_StudentDAOConstructo.html' with the test results; typically this file can be opened with a Web browser to view its contents.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="ANDONGNHI\WebRequestResponse_StudentDAOConstructo.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="c05f09c5-ceb8-4793-b351-89ae4da44c75" testId="a19eaf9e-b079-18a5-2702-88be03fc7580" testName="CreateTest" computerName="ANDONGNHI" startTime="2011-10-07T12:54:01.4758481+07:00" endTime="2011-10-07T12:54:01.6238565+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c05f09c5-ceb8-4793-b351-89ae4da44c75">
+      <Output>
+        <ErrorInfo>
+          <Message>The Web request 'http://localhost:3978/' completed successfully without running the test. This can occur when configuring the Web application for testing fails (an ASP.NET server error occurs when processing the request), or when no ASP.NET page is executed (the URL may point to an HTML page, a Web service, or a directory listing). Running tests in ASP.NET requires the URL to resolve to an ASP.NET page and for the page to execute properly up to the Load event. The response from the request is stored in the file 'WebRequestResponse_CreateTest.html' with the test results; typically this file can be opened with a Web browser to view its contents.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="ANDONGNHI\WebRequestResponse_CreateTest.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="104a3f91-bde2-4b49-96bf-3bcc7a9344cf" testId="f174f887-a81c-97b9-131c-2ffa334db6c5" testName="DeleteTest" computerName="ANDONGNHI" startTime="2011-10-07T12:54:01.6388574+07:00" endTime="2011-10-07T12:54:01.6928605+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="104a3f91-bde2-4b49-96bf-3bcc7a9344cf">
+      <Output>
+        <ErrorInfo>
+          <Message>The Web request 'http://localhost:3978/' completed successfully without running the test. This can occur when configuring the Web application for testing fails (an ASP.NET server error occurs when processing the request), or when no ASP.NET page is executed (the URL may point to an HTML page, a Web service, or a directory listing). Running tests in ASP.NET requires the URL to resolve to an ASP.NET page and for the page to execute properly up to the Load event. The response from the request is stored in the file 'WebRequestResponse_DeleteTest.html' with the test results; typically this file can be opened with a Web browser to view its contents.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="ANDONGNHI\WebRequestResponse_DeleteTest.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="ea53ec8b-d459-4cd0-8b4e-f91a513488a5" testId="1517419f-c72c-623d-563c-d1d759b1d24d" testName="GetTest" computerName="ANDONGNHI" startTime="2011-10-07T12:54:01.7098614+07:00" endTime="2011-10-07T12:54:01.7478636+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ea53ec8b-d459-4cd0-8b4e-f91a513488a5">
+      <Output>
+        <ErrorInfo>
+          <Message>The Web request 'http://localhost:3978/' completed successfully without running the test. This can occur when configuring the Web application for testing fails (an ASP.NET server error occurs when processing the request), or when no ASP.NET page is executed (the URL may point to an HTML page, a Web service, or a directory listing). Running tests in ASP.NET requires the URL to resolve to an ASP.NET page and for the page to execute properly up to the Load event. The response from the request is stored in the file 'WebRequestResponse_GetTest.html' with the test results; typically this file can be opened with a Web browser to view its contents.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="ANDONGNHI\WebRequestResponse_GetTest.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="3a917163-a8be-4c79-baea-4c13c408506c" testId="d6c3ddfb-cbae-f3f2-e79f-fde33fca0bd1" testName="GetAllTest" computerName="ANDONGNHI" startTime="2011-10-07T12:54:01.7628645+07:00" endTime="2011-10-07T12:54:01.8038668+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3a917163-a8be-4c79-baea-4c13c408506c">
+      <Output>
+        <ErrorInfo>
+          <Message>The Web request 'http://localhost:3978/' completed successfully without running the test. This can occur when configuring the Web application for testing fails (an ASP.NET server error occurs when processing the request), or when no ASP.NET page is executed (the URL may point to an HTML page, a Web service, or a directory listing). Running tests in ASP.NET requires the URL to resolve to an ASP.NET page and for the page to execute properly up to the Load event. The response from the request is stored in the file 'WebRequestResponse_GetAllTest.html' with the test results; typically this file can be opened with a Web browser to view its contents.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="ANDONGNHI\WebRequestResponse_GetAllTest.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="b0c49300-1731-4dfc-ac0b-a5c418e03fcd" testId="12a444ed-3e07-c934-2ba5-e5fd045e7b47" testName="UpdateTest" computerName="ANDONGNHI" startTime="2011-10-07T12:54:01.8268681+07:00" endTime="2011-10-07T12:54:01.8618701+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b0c49300-1731-4dfc-ac0b-a5c418e03fcd">
+      <Output>
+        <ErrorInfo>
+          <Message>The Web request 'http://localhost:3978/' completed successfully without running the test. This can occur when configuring the Web application for testing fails (an ASP.NET server error occurs when processing the request), or when no ASP.NET page is executed (the URL may point to an HTML page, a Web service, or a directory listing). Running tests in ASP.NET requires the URL to resolve to an ASP.NET page and for the page to execute properly up to the Load event. The response from the request is stored in the file 'WebRequestResponse_UpdateTest.html' with the test results; typically this file can be opened with a Web browser to view its contents.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="ANDONGNHI\WebRequestResponse_UpdateTest.html" />
+      </ResultFiles>
+    </UnitTestResult>
+  </Results>
+</TestRun>

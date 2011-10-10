@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="2166964e-2789-480b-a810-94ee70c54159" name="Administrator@ANDONGNHI 2011-10-08 16:30:08" runUser="ANDONGNHI\Administrator" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="e9955733-7b9e-4df8-b2cb-ea16ed124569">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Administrator_ANDONGNHI 2011-10-08 16_30_08">
+      <DeploymentItem filename="D:\Dropbox\dev\REST-QLHS\WpfClient\bin\Debug\WpfClient.exe" />
+      <DeploymentItem filename="D:\Dropbox\dev\REST-QLHS\REST-QLHS\bin\REST-QLHS.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-10-08T16:30:08.5095882+07:00" queuing="2011-10-08T16:30:22.6583975+07:00" start="2011-10-08T16:30:23.7924623+07:00" finish="2011-10-08T16:31:01.4346153+07:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="16" executed="1" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="15" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="ANDONGNHI" outcome="Error" timestamp="2011-10-08T16:31:01.4316152+07:00">
+        <Text>Test host process exited unexpectedly.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="DataProviderConstructorTest" storage="d:\dropbox\dev\rest-qlhs\rest-qlhs-unittest\bin\debug\rest-qlhs-unittest.dll" id="dc601b4a-88ce-ac74-5694-77938def0006">
+      <Execution id="8cc15ba3-ccb0-46e6-979e-9d64db9976e3" />
+      <TestMethod codeBase="D:/Dropbox/dev/REST-QLHS/REST-QLHS-UnitTest/bin/Debug/REST-QLHS-UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="REST_QLHS_UnitTest.DataProviderTest, REST-QLHS-UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DataProviderConstructorTest" />
+      <AspNet webSiteUrl="http://localhost:3978/">
+        <Host pathToWebApp="D:\Dropbox\dev\REST-QLHS\REST-QLHS" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="StudentDAOConstructorTest" storage="d:\dropbox\dev\rest-qlhs\rest-qlhs-unittest\bin\debug\rest-qlhs-unittest.dll" id="866494f6-bbd7-a7f9-5a28-fa884c3e7702">
+      <Execution id="93b49e03-ef94-4a55-b217-a3573821d2a7" />
+      <TestMethod codeBase="D:/Dropbox/dev/REST-QLHS/REST-QLHS-UnitTest/bin/Debug/REST-QLHS-UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="REST_QLHS_UnitTest.StudentDAOTest, REST-QLHS-UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="StudentDAOConstructorTest" />
+      <AspNet webSiteUrl="http://localhost:3978/">
+        <Host pathToWebApp="D:\Dropbox\dev\REST-QLHS\REST-QLHS" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="GetTest" storage="d:\dropbox\dev\rest-qlhs\rest-qlhs-unittest\bin\debug\rest-qlhs-unittest.dll" id="1517419f-c72c-623d-563c-d1d759b1d24d">
+      <Execution id="c59cd9b6-219c-4fa8-a47c-baa4e26ff393" />
+      <TestMethod codeBase="D:/Dropbox/dev/REST-QLHS/REST-QLHS-UnitTest/bin/Debug/REST-QLHS-UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="REST_QLHS_UnitTest.StudentDAOTest, REST-QLHS-UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetTest" />
+      <AspNet webSiteUrl="http://localhost:3978/">
+        <Host pathToWebApp="D:\Dropbox\dev\REST-QLHS\REST-QLHS" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="UpdateTest" storage="d:\dropbox\dev\rest-qlhs\rest-qlhs-unittest\bin\debug\rest-qlhs-unittest.dll" id="ed56f66c-8e68-ed0a-e34c-a74b0266cc06">
+      <DeploymentItems>
+        <DeploymentItem filename="WpfClient.exe" />
+      </DeploymentItems>
+      <Execution id="c569baa4-7119-4d7c-9b07-a248f0d310b3" />
+      <TestMethod codeBase="D:/Dropbox/dev/REST-QLHS/REST-QLHS-UnitTest/bin/Debug/REST-QLHS-UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="REST_QLHS_UnitTest.StudentControllerTest, REST-QLHS-UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="UpdateTest" />
+    </UnitTest>
+    <UnitTest name="GetAllTest" storage="d:\dropbox\dev\rest-qlhs\rest-qlhs-unittest\bin\debug\rest-qlhs-unittest.dll" id="a85ba3b5-3046-0088-a9ec-5897e3db715e">
+      <Execution id="37ca16bd-61f5-40ad-a4ca-3bc945c06ee2" />
+      <TestMethod codeBase="D:/Dropbox/dev/REST-QLHS/REST-QLHS-UnitTest/bin/Debug/REST-QLHS-UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="REST_QLHS_UnitTest.StudentControllerTest, REST-QLHS-UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetAllTest" />
+    </UnitTest>
+    <UnitTest name="DeleteTest" storage="d:\dropbox\dev\rest-qlhs\rest-qlhs-unittest\bin\debug\rest-qlhs-unittest.dll" id="3f531a0c-8916-3a0f-53a7-103a2bb395a3">
+      <Execution id="0a93f6d7-4c16-4be9-8031-a1f8e06e8ec8" />
+      <TestMethod codeBase="D:/Dropbox/dev/REST-QLHS/REST-QLHS-UnitTest/bin/Debug/REST-QLHS-UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="REST_QLHS_UnitTest.StudentControllerTest, REST-QLHS-UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DeleteTest" />
+    </UnitTest>
+    <UnitTest name="DeleteTest" storage="d:\dropbox\dev\rest-qlhs\rest-qlhs-unittest\bin\debug\rest-qlhs-unittest.dll" id="f174f887-a81c-97b9-131c-2ffa334db6c5">
+      <Execution id="06703baf-098a-4ab4-b10d-400158468b83" />
+      <TestMethod codeBase="D:/Dropbox/dev/REST-QLHS/REST-QLHS-UnitTest/bin/Debug/REST-QLHS-UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="REST_QLHS_UnitTest.StudentDAOTest, REST-QLHS-UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DeleteTest" />
+      <AspNet webSiteUrl="http://localhost:3978/">
+        <Host pathToWebApp="D:\Dropbox\dev\REST-QLHS\REST-QLHS" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="ConnTest" storage="d:\dropbox\dev\rest-qlhs\rest-qlhs-unittest\bin\debug\rest-qlhs-unittest.dll" id="6df67904-c0b6-191f-3910-60d90aa0e58f">
+      <DeploymentItems>
+        <DeploymentItem filename="REST-QLHS.dll" />
+      </DeploymentItems>
+      <Execution id="b7256db4-7672-4e74-840d-4e6e12431ecb" />
+      <TestMethod codeBase="D:/Dropbox/dev/REST-QLHS/REST-QLHS-UnitTest/bin/Debug/REST-QLHS-UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="REST_QLHS_UnitTest.DataProviderTest, REST-QLHS-UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ConnTest" />
+      <AspNet webSiteUrl="http://localhost:3978/">
+        <Host pathToWebApp="D:\Dropbox\dev\REST-QLHS\REST-QLHS" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="GetAllTest" storage="d:\dropbox\dev\rest-qlhs\rest-qlhs-unittest\bin\debug\rest-qlhs-unittest.dll" id="d6c3ddfb-cbae-f3f2-e79f-fde33fca0bd1">
+      <Execution id="68b54ee8-5039-4769-b832-b670004040f9" />
+      <TestMethod codeBase="D:/Dropbox/dev/REST-QLHS/REST-QLHS-UnitTest/bin/Debug/REST-QLHS-UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="REST_QLHS_UnitTest.StudentDAOTest, REST-QLHS-UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetAllTest" />
+      <AspNet webSiteUrl="http://localhost:3978/">
+        <Host pathToWebApp="D:\Dropbox\dev\REST-QLHS\REST-QLHS" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="CreateTest1" storage="d:\dropbox\dev\rest-qlhs\rest-qlhs-unittest\bin\debug\rest-qlhs-unittest.dll" id="855d5cea-8c62-d17d-45fb-a4b9b1ef6c98">
+      <Execution id="e5289b89-b933-43f2-a251-c07cffa025ff" />
+      <TestMethod codeBase="D:/Dropbox/dev/REST-QLHS/REST-QLHS-UnitTest/bin/Debug/REST-QLHS-UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="REST_QLHS_UnitTest.StudentControllerTest, REST-QLHS-UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CreateTest1" />
+    </UnitTest>
+    <UnitTest name="GetTest" storage="d:\dropbox\dev\rest-qlhs\rest-qlhs-unittest\bin\debug\rest-qlhs-unittest.dll" id="04d6716f-9352-d7bf-6ea8-f44b16827469">
+      <DeploymentItems>
+        <DeploymentItem filename="WpfClient.exe" />
+      </DeploymentItems>
+      <Execution id="0b2eba5d-1072-4896-a9cb-d6969599b9d2" />
+      <TestMethod codeBase="D:/Dropbox/dev/REST-QLHS/REST-QLHS-UnitTest/bin/Debug/REST-QLHS-UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="REST_QLHS_UnitTest.StudentControllerTest, REST-QLHS-UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetTest" />
+    </UnitTest>
+    <UnitTest name="GetXmlGetAllTest" storage="d:\dropbox\dev\rest-qlhs\rest-qlhs-unittest\bin\debug\rest-qlhs-unittest.dll" id="1ccf94f0-1e70-c916-2642-5fbf8d10d99e">
+      <DeploymentItems>
+        <DeploymentItem filename="WpfClient.exe" />
+      </DeploymentItems>
+      <Execution id="b03bdc07-6334-4b23-a6cc-ff5d8a4de465" />
+      <TestMethod codeBase="D:/Dropbox/dev/REST-QLHS/REST-QLHS-UnitTest/bin/Debug/REST-QLHS-UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="REST_QLHS_UnitTest.StudentControllerTest, REST-QLHS-UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetXmlGetAllTest" />
+    </UnitTest>
+    <UnitTest name="CreateTest" storage="d:\dropbox\dev\rest-qlhs\rest-qlhs-unittest\bin\debug\rest-qlhs-unittest.dll" id="a19eaf9e-b079-18a5-2702-88be03fc7580">
+      <Execution id="2693d92d-97e6-41a1-afd9-207220cff59b" />
+      <TestMethod codeBase="D:/Dropbox/dev/REST-QLHS/REST-QLHS-UnitTest/bin/Debug/REST-QLHS-UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="REST_QLHS_UnitTest.StudentDAOTest, REST-QLHS-UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CreateTest" />
+      <AspNet webSiteUrl="http://localhost:3978/">
+        <Host pathToWebApp="D:\Dropbox\dev\REST-QLHS\REST-QLHS" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="UpdateTest" storage="d:\dropbox\dev\rest-qlhs\rest-qlhs-unittest\bin\debug\rest-qlhs-unittest.dll" id="12a444ed-3e07-c934-2ba5-e5fd045e7b47">
+      <Execution id="2a40b0ab-1eb6-416d-bf3f-58bba2121f0c" />
+      <TestMethod codeBase="D:/Dropbox/dev/REST-QLHS/REST-QLHS-UnitTest/bin/Debug/REST-QLHS-UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="REST_QLHS_UnitTest.StudentDAOTest, REST-QLHS-UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="UpdateTest" />
+      <AspNet webSiteUrl="http://localhost:3978/">
+        <Host pathToWebApp="D:\Dropbox\dev\REST-QLHS\REST-QLHS" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="CreateTest" storage="d:\dropbox\dev\rest-qlhs\rest-qlhs-unittest\bin\debug\rest-qlhs-unittest.dll" id="1c34285d-75ce-5b50-11b7-a915b7df6ce1">
+      <Execution id="10d65399-4b37-4147-bcae-62d9324463dd" />
+      <TestMethod codeBase="D:/Dropbox/dev/REST-QLHS/REST-QLHS-UnitTest/bin/Debug/REST-QLHS-UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="REST_QLHS_UnitTest.Service1Test, REST-QLHS-UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CreateTest" />
+      <AspNet webSiteUrl="http://localhost:3978/">
+        <Host pathToWebApp="D:\Dropbox\dev\REST-QLHS\REST-QLHS" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="StudentControllerConstructorTest" storage="d:\dropbox\dev\rest-qlhs\rest-qlhs-unittest\bin\debug\rest-qlhs-unittest.dll" id="b9984734-14e9-1865-7a54-457a33bab458">
+      <Execution id="1e655a83-1b73-40b5-bcf8-5782f7cf4607" />
+      <TestMethod codeBase="D:/Dropbox/dev/REST-QLHS/REST-QLHS-UnitTest/bin/Debug/REST-QLHS-UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="REST_QLHS_UnitTest.StudentControllerTest, REST-QLHS-UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="StudentControllerConstructorTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="04d6716f-9352-d7bf-6ea8-f44b16827469" executionId="0b2eba5d-1072-4896-a9cb-d6969599b9d2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="12a444ed-3e07-c934-2ba5-e5fd045e7b47" executionId="2a40b0ab-1eb6-416d-bf3f-58bba2121f0c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1517419f-c72c-623d-563c-d1d759b1d24d" executionId="c59cd9b6-219c-4fa8-a47c-baa4e26ff393" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1c34285d-75ce-5b50-11b7-a915b7df6ce1" executionId="10d65399-4b37-4147-bcae-62d9324463dd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1ccf94f0-1e70-c916-2642-5fbf8d10d99e" executionId="b03bdc07-6334-4b23-a6cc-ff5d8a4de465" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3f531a0c-8916-3a0f-53a7-103a2bb395a3" executionId="0a93f6d7-4c16-4be9-8031-a1f8e06e8ec8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6df67904-c0b6-191f-3910-60d90aa0e58f" executionId="b7256db4-7672-4e74-840d-4e6e12431ecb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="855d5cea-8c62-d17d-45fb-a4b9b1ef6c98" executionId="e5289b89-b933-43f2-a251-c07cffa025ff" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="866494f6-bbd7-a7f9-5a28-fa884c3e7702" executionId="93b49e03-ef94-4a55-b217-a3573821d2a7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a19eaf9e-b079-18a5-2702-88be03fc7580" executionId="2693d92d-97e6-41a1-afd9-207220cff59b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a85ba3b5-3046-0088-a9ec-5897e3db715e" executionId="37ca16bd-61f5-40ad-a4ca-3bc945c06ee2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b9984734-14e9-1865-7a54-457a33bab458" executionId="1e655a83-1b73-40b5-bcf8-5782f7cf4607" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d6c3ddfb-cbae-f3f2-e79f-fde33fca0bd1" executionId="68b54ee8-5039-4769-b832-b670004040f9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="dc601b4a-88ce-ac74-5694-77938def0006" executionId="8cc15ba3-ccb0-46e6-979e-9d64db9976e3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ed56f66c-8e68-ed0a-e34c-a74b0266cc06" executionId="c569baa4-7119-4d7c-9b07-a248f0d310b3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f174f887-a81c-97b9-131c-2ffa334db6c5" executionId="06703baf-098a-4ab4-b10d-400158468b83" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="0b2eba5d-1072-4896-a9cb-d6969599b9d2" testId="04d6716f-9352-d7bf-6ea8-f44b16827469" testName="GetTest" computerName="ANDONGNHI" duration="00:00:36.8501077" startTime="2011-10-08T16:30:24.5825075+07:00" endTime="2011-10-08T16:31:01.4326152+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0b2eba5d-1072-4896-a9cb-d6969599b9d2">
+    </UnitTestResult>
+    <UnitTestResult executionId="2a40b0ab-1eb6-416d-bf3f-58bba2121f0c" testId="12a444ed-3e07-c934-2ba5-e5fd045e7b47" testName="UpdateTest" computerName="ANDONGNHI" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2a40b0ab-1eb6-416d-bf3f-58bba2121f0c">
+    </UnitTestResult>
+    <UnitTestResult executionId="c59cd9b6-219c-4fa8-a47c-baa4e26ff393" testId="1517419f-c72c-623d-563c-d1d759b1d24d" testName="GetTest" computerName="ANDONGNHI" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c59cd9b6-219c-4fa8-a47c-baa4e26ff393">
+    </UnitTestResult>
+    <UnitTestResult executionId="10d65399-4b37-4147-bcae-62d9324463dd" testId="1c34285d-75ce-5b50-11b7-a915b7df6ce1" testName="CreateTest" computerName="ANDONGNHI" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="10d65399-4b37-4147-bcae-62d9324463dd">
+    </UnitTestResult>
+    <UnitTestResult executionId="b03bdc07-6334-4b23-a6cc-ff5d8a4de465" testId="1ccf94f0-1e70-c916-2642-5fbf8d10d99e" testName="GetXmlGetAllTest" computerName="ANDONGNHI" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b03bdc07-6334-4b23-a6cc-ff5d8a4de465">
+    </UnitTestResult>
+    <UnitTestResult executionId="0a93f6d7-4c16-4be9-8031-a1f8e06e8ec8" testId="3f531a0c-8916-3a0f-53a7-103a2bb395a3" testName="DeleteTest" computerName="ANDONGNHI" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0a93f6d7-4c16-4be9-8031-a1f8e06e8ec8">
+    </UnitTestResult>
+    <UnitTestResult executionId="b7256db4-7672-4e74-840d-4e6e12431ecb" testId="6df67904-c0b6-191f-3910-60d90aa0e58f" testName="ConnTest" computerName="ANDONGNHI" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b7256db4-7672-4e74-840d-4e6e12431ecb">
+    </UnitTestResult>
+    <UnitTestResult executionId="e5289b89-b933-43f2-a251-c07cffa025ff" testId="855d5cea-8c62-d17d-45fb-a4b9b1ef6c98" testName="CreateTest1" computerName="ANDONGNHI" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e5289b89-b933-43f2-a251-c07cffa025ff">
+    </UnitTestResult>
+    <UnitTestResult executionId="93b49e03-ef94-4a55-b217-a3573821d2a7" testId="866494f6-bbd7-a7f9-5a28-fa884c3e7702" testName="StudentDAOConstructorTest" computerName="ANDONGNHI" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="93b49e03-ef94-4a55-b217-a3573821d2a7">
+    </UnitTestResult>
+    <UnitTestResult executionId="2693d92d-97e6-41a1-afd9-207220cff59b" testId="a19eaf9e-b079-18a5-2702-88be03fc7580" testName="CreateTest" computerName="ANDONGNHI" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2693d92d-97e6-41a1-afd9-207220cff59b">
+    </UnitTestResult>
+    <UnitTestResult executionId="37ca16bd-61f5-40ad-a4ca-3bc945c06ee2" testId="a85ba3b5-3046-0088-a9ec-5897e3db715e" testName="GetAllTest" computerName="ANDONGNHI" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="37ca16bd-61f5-40ad-a4ca-3bc945c06ee2">
+    </UnitTestResult>
+    <UnitTestResult executionId="1e655a83-1b73-40b5-bcf8-5782f7cf4607" testId="b9984734-14e9-1865-7a54-457a33bab458" testName="StudentControllerConstructorTest" computerName="ANDONGNHI" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1e655a83-1b73-40b5-bcf8-5782f7cf4607">
+    </UnitTestResult>
+    <UnitTestResult executionId="68b54ee8-5039-4769-b832-b670004040f9" testId="d6c3ddfb-cbae-f3f2-e79f-fde33fca0bd1" testName="GetAllTest" computerName="ANDONGNHI" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="68b54ee8-5039-4769-b832-b670004040f9">
+    </UnitTestResult>
+    <UnitTestResult executionId="8cc15ba3-ccb0-46e6-979e-9d64db9976e3" testId="dc601b4a-88ce-ac74-5694-77938def0006" testName="DataProviderConstructorTest" computerName="ANDONGNHI" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8cc15ba3-ccb0-46e6-979e-9d64db9976e3">
+    </UnitTestResult>
+    <UnitTestResult executionId="c569baa4-7119-4d7c-9b07-a248f0d310b3" testId="ed56f66c-8e68-ed0a-e34c-a74b0266cc06" testName="UpdateTest" computerName="ANDONGNHI" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c569baa4-7119-4d7c-9b07-a248f0d310b3">
+    </UnitTestResult>
+    <UnitTestResult executionId="06703baf-098a-4ab4-b10d-400158468b83" testId="f174f887-a81c-97b9-131c-2ffa334db6c5" testName="DeleteTest" computerName="ANDONGNHI" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="06703baf-098a-4ab4-b10d-400158468b83">
+    </UnitTestResult>
+  </Results>
+</TestRun>

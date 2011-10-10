@@ -2,13 +2,8 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/1"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/1">
-        <file>file:/D:/dev/0812090_Buoi04_DA02/0812090/Source/src/java/data/UserDAO.java</file>
-        <file>file:/D:/dev/0812090_Buoi04_DA02/0812090/Source/src/java/controller/Home.java</file>
-        <file>file:/D:/dev/0812090_Buoi04_DA02/0812090/Source/src/java/model/Manufacturor.java</file>
-        <file>file:/D:/dev/0812090_Buoi04_DA02/0812090/Source/src/java/model/Refridgerator.java</file>
-        <file>file:/D:/dev/0812090_Buoi04_DA02/0812090/Source/src/java/data/RefridgeratorDAO.java</file>
-        <file>file:/D:/dev/0812090_Buoi04_DA02/0812090/Source/src/java/data/DataProvider.java</file>
-        <file>file:/D:/dev/0812090_Buoi04_DA02/0812090/Source/web/index.jsp</file>
-        <file>file:/D:/dev/0812090_Buoi04_DA02/0812090/Source/src/java/controller/Register.java</file>
+        <file>file:/D:/dev/University_Projects/Yr4_Semester1/JavaPhanTan/0812090_Buoi04_DA02/0812090/Source/test/data/DataProviderTest.java</file>
+        <file>file:/D:/dev/University_Projects/Yr4_Semester1/JavaPhanTan/0812090_Buoi04_DA02/0812090/Source/test/data/UserDAOTest.java</file>
+        <file>file:/D:/dev/University_Projects/Yr4_Semester1/JavaPhanTan/0812090_Buoi04_DA02/0812090/Source/web/product_detail.jsp</file>
     </open-files>
 </project-private>

@@ -1,0 +1,1 @@
+<%@ Application Codebehind="Global.asax.cs" Inherits="REST_QLHS.Global" Language="C#" %>
