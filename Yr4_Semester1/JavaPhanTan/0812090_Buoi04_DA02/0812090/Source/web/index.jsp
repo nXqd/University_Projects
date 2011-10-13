@@ -4,6 +4,7 @@ Created on : Sep 17, 2011, 2:38:06 PM
 Author     : nXqd
 --%>
 
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@page import="java.text.DecimalFormat"%>
 <%@page import="model.*"%>
 <%@page import="data.ManufacturorDAO"%>
@@ -245,7 +246,7 @@ private static String user;
 								<div class="anyClass scroll">
 									<ul>
 										<%
-											for (RefridgeratorDTO ftRefrid : featureds) {
+										for (RefridgeratorDTO ftRefrid : featureds) {
 										%>
 										<li>
 											<a href="product_detail.jsp?getProduct=<%= ftRefrid.getId()%>">

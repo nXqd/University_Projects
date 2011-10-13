@@ -18,11 +18,20 @@ import java.sql.SQLException;
  */
 public class DataProvider {
 
-	static final String JDBC_DRIVER = "com.mysql.jdbc.Driver";
 	static final String DB_URL = "jdbc:mysql://localhost/java_buoi04";
 	static final String USER = "root";
 	static final String PASS = "root";
-	static Connection conn = null;
+	static Connection _conn = null;
+
+	public DataProvider(String url, String user, String pass) throws ClassNotFoundException, SQLException, InstantiationException, IllegalAccessException {
+		Class.forName("com.mysql.jdbc.Driver").newInstance();
+		if (_conn == null) {
+			_conn = DriverManager.getConnection(DB_URL, USER, PASS);
+		}
+	}
+
+	DataProvider() {
+	}
 
 	/**
 	 * 
@@ -34,10 +43,10 @@ public class DataProvider {
 	 */
 	public Connection getConnection() throws SQLException, ClassNotFoundException, InstantiationException, IllegalAccessException {
 		Class.forName("com.mysql.jdbc.Driver").newInstance();
-		if (conn == null) {
-			conn = DriverManager.getConnection(DB_URL, USER, PASS);
+		if (_conn == null) {
+			_conn = DriverManager.getConnection(DB_URL, USER, PASS);
 		}
-		return conn;
+		return _conn;
 	}
 
 	/**
@@ -45,8 +54,8 @@ public class DataProvider {
 	 * @throws SQLException
 	 */
 	public void closeConnection() throws SQLException {
-		if (conn != null) {
-			conn.close();
+		if (_conn != null) {
+			_conn.close();
 		}
 	}
 }

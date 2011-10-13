@@ -23,8 +23,16 @@ import model.RefridgeratorDTO;
  */
 public class RefridgeratorDAO {
 
-    static DataProvider dataProvider = new DataProvider();
+    static DataProvider _dataProvider = new DataProvider();
     static PreparedStatement stm = null;
+
+	public RefridgeratorDAO(DataProvider dataProvider) {
+		_dataProvider = dataProvider;	
+	}
+
+	public RefridgeratorDAO() {
+
+	}
 
     /**
      * 
@@ -36,7 +44,7 @@ public class RefridgeratorDAO {
      * @throws IllegalAccessException
      */
     public RefridgeratorDTO insert(RefridgeratorDTO refridgerator) throws SQLException, ClassNotFoundException, InstantiationException, IllegalAccessException {
-        Connection conn = dataProvider.getConnection();
+        Connection conn = _dataProvider.getConnection();
         RefridgeratorDAO.stm = conn.prepareStatement("INSERT INTO `refridgerator`(`name`, `manufacturor_id`, `capacity`, `door_style`, `door_count`, `feature`, `composition`, `power`, `size`, `price`, `warranty`, `quantity`, `images`, `featured`) VALUES"
                 + " (?,?,?,?,?,?,?,?,?,?,?,?,?,?)");
         stm.setString(1, refridgerator.getName());
@@ -68,7 +76,7 @@ public class RefridgeratorDAO {
      * @throws IllegalAccessException
      */
     public void delete(RefridgeratorDTO refridgerator) throws SQLException, ClassNotFoundException, InstantiationException, IllegalAccessException {
-        Connection conn = dataProvider.getConnection();
+        Connection conn = _dataProvider.getConnection();
         int id = getIdbyName(refridgerator);
         RefridgeratorDAO.stm = conn.prepareStatement("UPDATE Refridgerator SET status = 0 WHERE id = ?");
         stm.setInt(1, id);
@@ -76,7 +84,7 @@ public class RefridgeratorDAO {
     }
 
     private int getIdbyName(RefridgeratorDTO ref) throws SQLException, ClassNotFoundException, InstantiationException, IllegalAccessException {
-        Connection conn = dataProvider.getConnection();
+        Connection conn = _dataProvider.getConnection();
         RefridgeratorDAO.stm = conn.prepareStatement("SELECT id FROM refridgerator WHERE name = ?");
         stm.setString(1, ref.getName());
         ResultSet rs = stm.executeQuery();
@@ -93,7 +101,7 @@ public class RefridgeratorDAO {
      * @throws IllegalAccessException
      */
     public void update(RefridgeratorDTO refridgerator) throws SQLException, ClassNotFoundException, InstantiationException, IllegalAccessException {
-        Connection conn = dataProvider.getConnection();
+        Connection conn = _dataProvider.getConnection();
         RefridgeratorDAO.stm = conn.prepareStatement("UPDATE `refridgerator` SET `name`=?,`manufacturor_id`=?,`capacity`=?,`door_style`=?,`door_count`=?,`feature`=?,`composition`=?,`power`=?,`size`=?,`price`=?,`warranty`=?,`quantity`=?,`status`=?,`images`=?, `featured`=? WHERE id = ?");
         stm.setString(1, refridgerator.getName());
         stm.setInt(2, refridgerator.getManufacturorId());
@@ -124,7 +132,7 @@ public class RefridgeratorDAO {
      * @throws IllegalAccessException
      */
     public RefridgeratorDTO get(RefridgeratorDTO refridgerator) throws SQLException, ClassNotFoundException, InstantiationException, IllegalAccessException {
-        Connection conn = dataProvider.getConnection();
+        Connection conn = _dataProvider.getConnection();
         stm = conn.prepareStatement("SELECT * FROM `refridgerator` WHERE id = ?");
         stm.setInt(1, refridgerator.getId());
         ResultSet rs = stm.executeQuery();
@@ -160,7 +168,7 @@ public class RefridgeratorDAO {
      * @throws IllegalAccessException
      */
     public List<RefridgeratorDTO> getByNumber(int number) throws SQLException, ClassNotFoundException, InstantiationException, IllegalAccessException {
-        Connection conn = dataProvider.getConnection();
+        Connection conn = _dataProvider.getConnection();
         stm = conn.prepareStatement("SELECT * FROM `refridgerator` LIMIT ?");
         stm.setInt(1, number);
         ResultSet rs = stm.executeQuery();
@@ -177,7 +185,7 @@ public class RefridgeratorDAO {
      * @throws IllegalAccessException
      */
     public List<RefridgeratorDTO> search(String str) throws SQLException, ClassNotFoundException, InstantiationException, IllegalAccessException {
-        Connection conn = dataProvider.getConnection();
+        Connection conn = _dataProvider.getConnection();
         stm = conn.prepareStatement("SELECT * FROM `refridgerator` WHERE name LIKE ?");
         stm.setString(1, "%" + str + "%");
         ResultSet rs = stm.executeQuery();
@@ -194,7 +202,7 @@ public class RefridgeratorDAO {
      * @throws IllegalAccessException
      */
     public List<RefridgeratorDTO> getByManufacturor(ManufacturorDTO manu) throws SQLException, ClassNotFoundException, InstantiationException, IllegalAccessException {
-        Connection conn = dataProvider.getConnection();
+        Connection conn = _dataProvider.getConnection();
         stm = conn.prepareStatement("SELECT * FROM `refridgerator` WHERE manufacturor_id = ?");
         stm.setInt(1, manu.getId());
         ResultSet rs = stm.executeQuery();
@@ -210,7 +218,7 @@ public class RefridgeratorDAO {
      * @throws IllegalAccessException
      */
     public List<RefridgeratorDTO> getAll() throws SQLException, ClassNotFoundException, InstantiationException, IllegalAccessException {
-        Connection conn = dataProvider.getConnection();
+        Connection conn = _dataProvider.getConnection();
         stm = conn.prepareStatement("SELECT * FROM `refridgerator`");
         ResultSet rs = stm.executeQuery();
         return getListProduct(rs);
@@ -226,7 +234,7 @@ public class RefridgeratorDAO {
      * @throws IllegalAccessException
      */
     public List<RefridgeratorDTO> searchByManufacturor(int manuId) throws SQLException, ClassNotFoundException, InstantiationException, IllegalAccessException {
-        Connection conn = dataProvider.getConnection();
+        Connection conn = _dataProvider.getConnection();
         stm = conn.prepareStatement("SELECT * FROM `refridgerator` where manufacturor_id = ?");
         stm.setInt(1, manuId);
         ResultSet rs = stm.executeQuery();
@@ -243,11 +251,25 @@ public class RefridgeratorDAO {
      * @throws IllegalAccessException
      */
     public List<RefridgeratorDTO> getFeatureds() throws SQLException, ClassNotFoundException, InstantiationException, IllegalAccessException {
-        Connection conn = dataProvider.getConnection();
+        Connection conn = _dataProvider.getConnection();
         stm = conn.prepareStatement("SELECT * FROM `refridgerator` where featured = 1");
         ResultSet rs = stm.executeQuery();
         return getListProduct(rs);
     }
+
+	public List<RefridgeratorDTO> getProductOfPage(int page) throws SQLException, ClassNotFoundException, InstantiationException, IllegalAccessException {
+		int ppp = 9;
+        Connection conn = _dataProvider.getConnection();
+        stm = conn.prepareStatement("SELECT * FROM `refridgerator` LIMIT " + ppp + " OFFSET " + page*ppp);
+        ResultSet rs = stm.executeQuery();
+        return getListProduct(rs);
+    }
+
+	public int getNumberOfRecords() throws SQLException, ClassNotFoundException, InstantiationException, IllegalAccessException {
+        Connection conn = _dataProvider.getConnection();
+        stm = conn.prepareStatement("SELECT COUNT(*) FROM refridgerator");
+        return stm.executeUpdate();
+	}
 
     private List<RefridgeratorDTO> getListProduct(ResultSet rs) throws SQLException {
         List<RefridgeratorDTO> list = new ArrayList<RefridgeratorDTO>();

@@ -5,7 +5,6 @@
 package data;
 
 import java.sql.*;
-import java.util.AbstractList;
 import java.util.ArrayList;
 import java.util.List;
 import model.ManufacturorDTO;
@@ -15,7 +14,7 @@ import model.ManufacturorDTO;
  * @author Administrator
  */
 public class ManufacturorDAO {
-static DataProvider dataProvider = new DataProvider();
+	static DataProvider dataProvider = new DataProvider();
     static PreparedStatement stm = null;
 
     /**

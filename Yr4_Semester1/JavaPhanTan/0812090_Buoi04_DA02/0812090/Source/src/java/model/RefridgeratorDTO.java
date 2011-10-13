@@ -1,14 +1,8 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
 package model;
 
-/**
- *
- * @author nXqd
- */
-public class RefridgeratorDTO {
+import java.io.Serializable;
+
+public class RefridgeratorDTO implements Serializable {
 
     int _id;
     String _name;

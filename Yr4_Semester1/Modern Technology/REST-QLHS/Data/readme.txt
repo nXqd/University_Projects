@@ -1,1 +1,0 @@
-put this database in the same folder with wcf service or C:\HocSinh.db3 . There is one default in the wcf service's bin folder
