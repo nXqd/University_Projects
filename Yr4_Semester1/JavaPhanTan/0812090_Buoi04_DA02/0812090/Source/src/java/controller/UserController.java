@@ -16,9 +16,9 @@ import model.UserDTO;
 import net.tanesha.recaptcha.*;
 
 public class UserController extends HttpServlet {
-	
+
 	private static UserDAO userDAO = new UserDAO();
-	
+
 	/**
 	 * Processes requests for both HTTP <code>GET</code> and <code>POST</code> methods.
 	 * @param request servlet request
@@ -45,7 +45,7 @@ public class UserController extends HttpServlet {
 			out.close();
 		}
 	}
-	
+
 	// <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">
 	/**
 	 * Handles the HTTP <code>GET</code> method.
@@ -63,7 +63,7 @@ public class UserController extends HttpServlet {
 		RequestDispatcher req = request.getRequestDispatcher("new-login.jsp");
 		req.forward(request, response);
 	}
-	
+
 	/**
 	 * Handles the HTTP <code>POST</code> method.
 	 * @param request servlet request
@@ -74,17 +74,17 @@ public class UserController extends HttpServlet {
 	@Override
 	protected void doPost(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException{
-		
+
 		// Register user
 		if (request.getParameter("type") != null) {
 			String remoteAddr = request.getRemoteAddr();
 			ReCaptchaImpl reCaptcha = new ReCaptchaImpl();
 			reCaptcha.setPrivateKey("6LcPesgSAAAAAEVDo4xq4RiQQY__dVfCCiHPRiKT");
-			
+
 			String challenge = request.getParameter("recaptcha_challenge_field");
 			String uresponse = request.getParameter("recaptcha_response_field");
 			ReCaptchaResponse reCaptchaResponse = reCaptcha.checkAnswer(remoteAddr, challenge, uresponse);
-			
+
 			// end captcha
 			if (reCaptchaResponse.isValid()) {
 				String type = request.getParameter("type");
@@ -133,15 +133,15 @@ public class UserController extends HttpServlet {
 					session.setAttribute("user", userDTO);
 					// create recaptcha HTML
 					// forward the attributes
-					RequestDispatcher req = request.getRequestDispatcher("DisplayQuestions.jsp");
+					RequestDispatcher req = request.getRequestDispatcher("new-index.jsp");
 					req.forward(request, response);
 				}
 			}
 		}
-		
-		
+
+
 	}
-	
+
 	/**
 	 * Returns a short description of the servlet.
 	 * @return a String containing servlet description

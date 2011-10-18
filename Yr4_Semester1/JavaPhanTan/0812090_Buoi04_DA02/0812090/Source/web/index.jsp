@@ -191,9 +191,7 @@ private static String user;
 
 								<ul class="categoryitems">
 									<li><a href="index.jsp?manu=<%= dto.getId()%>">All</a></li>
-									<% for (RefridgeratorDTO refridDTO : listRefrid) {
-
-									%>
+									<% for (RefridgeratorDTO refridDTO : listRefrid) { %>
 									<li><a href="product_detail.jsp?getProduct=<%= refridDTO.getId()%>"><%= refridDTO.getName()%></a> </li>
 									<%}%>
 								</ul>

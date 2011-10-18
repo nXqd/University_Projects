@@ -9,21 +9,20 @@ import data.ManufacturorDAO;
 import data.RefridgeratorDAO;
 import java.io.IOException;
 import java.sql.SQLException;
+import java.util.HashMap;
+import java.util.List;
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import model.ManufacturorDTO;
 
 /**
  *
  * @author nXqd - nxqd.inbox@gmail.com
  */
 public class IndexController extends HttpServlet {
-
-	private static int _pageCount;
-	private static int _ppp = 9;
-
     /**
      * Processes requests for both HTTP <code>GET</code> and <code>POST</code> methods.
      * @param request servlet request
@@ -57,19 +56,29 @@ public class IndexController extends HttpServlet {
 				request.setAttribute("page", currentPage);
 			}
 
-			// get numberOfPage
+			// set featureds by Product
+			request.setAttribute("hashFeatureds", GetFeaturedsByBrandName());
+			// set numberOfPage
 			request.setAttribute("pageCount", 3);
-
-			// get all manufacturors for categories
+			// set all manufacturors for categories
 			request.setAttribute("manus", new ManufacturorDAO().get());
-
-			// get all featureds
+			// set all featureds
 			request.setAttribute("featureds", new RefridgeratorDAO(dp).getFeatureds());
 
 			// forward to our index page
 			RequestDispatcher view = request.getRequestDispatcher("new-index.jsp");
 			view.forward(request, response);
+
 		} catch (Exception ex) {}
+	}
+
+	private HashMap GetFeaturedsByBrandName() throws InstantiationException, SQLException, ClassNotFoundException, IllegalAccessException {
+		HashMap hashMap = new HashMap();
+		List<ManufacturorDTO> mfs = new ManufacturorDAO().get();
+		for (ManufacturorDTO dto : mfs) {
+			hashMap.put(dto.getName(),new RefridgeratorDAO().getByManufacturor(dto));
+		}
+		return hashMap;
 	}
 
     /**

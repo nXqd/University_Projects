@@ -1,11 +1,14 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
+
 <div id="content_sec">
 	<!-- Column 3 -->
 	<div class="col3">
 		<div class="shoppingcart">
 			<h2 class="heading colr">Shopping Cart</h2>
 			<ul class="buttons">
-				<li><a href="index.jsp" class="buttonone">Continue Shopping</a></li>
-				<li><a href="cart.jsp?checkout=true" class="buttonone">Proceed to Checkout</a></li>
+				<li><a href="home" class="buttonone">Continue Shopping</a></li>
+				<li><a href="cart?action=checkout" class="buttonone">Proceed to Checkout</a></li>
 			</ul>
 			<div class="cartitems">
 				<ul class="carthead">
@@ -16,21 +19,16 @@
 					<li class="unitprice">Unit Price</li>
 					<li class="subtotal">Subtotal</li>
 				</ul>
-				<% 
-				for(Item itemTmp : items) {
-					RefridgeratorDTO dto = new RefridgeratorDTO();
-					dto.setId(itemTmp.id);
-					dto = dao.get(dto);					
-				%>
-				<ul class="cartlist">
-					<li class="image"><a href="prod_detail.html"><img src="images/cart1.gif" alt="" /></a></li>
-					<li class="name"><a href="prod_detail.html"><%= dto.getName() %></a></li>
-					<li class="delete"><a href="#"><img src="images/delete.gif" alt="" /></a></li>
-					<li class="qty"><input name="a" type="text" value="<%= itemTmp.quantity %>" /></li>
-					<li class="unitprice"><%= new DecimalFormat("#.##").format(dto.getPrice()) %></li>
-					<li class="subtotal"><%= new DecimalFormat("#.##").format(dto.getPrice() * itemTmp.quantity) %></li>
-				</ul>
-				<%}%>
+				<c:forEach items="${sessionScope.cartItems}" var="item">
+					<ul class="cartlist">
+						<li class="image"><a href="prod_detail.html"><img src="images/cart1.gif" alt="" /></a></li>
+						<li class="name"><a href="prod_detail.html">${item.name}</a></li>
+						<li class="delete"><a href="#"><img src="images/delete.gif" alt="" /></a></li>
+						<li class="qty"><input name="a" type="text" value="${item.quantity}" /></li>
+						<li class="unitprice"><fmt:formatNumber type="currency" pattern="#,##0.00;" value="${item.price}"/></li>
+						<li class="subtotal"><fmt:formatNumber type="currency" pattern="#,##0.00;" value="${item.price * item.quantity}" /></li>
+					</ul>
+				</c:forEach>
 			</div>
 			<div class="clear"></div>
 			<!-- Cart Left Section -->
@@ -70,7 +68,7 @@
 					<!--</ul>-->
 					<ul>
 						<li class="tot_head">Grand total</li>
-						<li class="tot_price"><%= new DecimalFormat("#.##").format(totalPrice) %></li>
+						<li class="tot_price">Blah blah</li>
 					</ul>
 				</div>
 				<div class="clear"></div>

@@ -16,7 +16,7 @@ Author     : Administrator
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 
 <%-- Declaration --%>
-<%!	
+<%!
 private static RefridgeratorDAO dao = new RefridgeratorDAO();
 private static RefridgeratorDTO ref;
 private static ManufacturorDTO mf;
@@ -477,11 +477,10 @@ private static String user;
 		<script>
 			$('.addtocartbtn').click(function() {
 				var quantity = $('input[name=quantity]').val();
-				if (quantity) 
+				if (quantity)
 					window.location.href = 'cart.jsp?quantity=' + quantity + '&id=' + <%= ref.getId() %> ;
 					//$.post('product_detail.jsp', { quantity: quantity});
 			});
 		</script>
 	</body>
 </html>
-l>

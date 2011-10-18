@@ -1,4 +1,4 @@
-<%@taglib prefix="template" uri="/WEB-INF/tlds/TemplateLibrary" %>
+<%@ taglib prefix="template" uri="/WEB-INF/tlds/TemplateLibrary"%>
 
 <!DOCTYPE html>
 <html>

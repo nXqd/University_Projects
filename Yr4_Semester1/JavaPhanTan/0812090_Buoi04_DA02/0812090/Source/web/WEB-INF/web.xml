@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <web-app version="3.0" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
     <welcome-file-list>
-        <welcome-file>IndexController</welcome-file>
+        <welcome-file>home</welcome-file>
     </welcome-file-list>
     <context-param>
         <param-name>DatabaseURL</param-name>
@@ -38,6 +38,10 @@
         <servlet-name>CartController</servlet-name>
         <servlet-class>controller.CartController</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>ProductController</servlet-name>
+        <servlet-class>controller.ProductController</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>IndexController</servlet-name>
         <url-pattern>/IndexController</url-pattern>
@@ -59,6 +63,12 @@
     <servlet-mapping>
         <servlet-name>CartController</servlet-name>
         <url-pattern>/CartController</url-pattern>
+        <url-pattern>/cart</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ProductController</servlet-name>
+        <url-pattern>/ProductController</url-pattern>
+        <url-pattern>/product</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
