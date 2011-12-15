@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<sources>
+  <source id="1" type="source1">dataxml1.xml</source>
+  <source id="2" type="source2">dataxml2.xml</source>
+</sources>

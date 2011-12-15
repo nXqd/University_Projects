@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<geometries>
+  <!-- Rectangle -->
+  <!-- <rectangle point1="1,2" point2="200,2" point3="200,100" point4="1,100"/> -->
+  <!-- Line -->
+  <!-- <line point1="1,2" point2="200,2" /> -->
+  <!-- Elip -->
+  <ellipse x="1.2" y="2.3" w="200" h="300" />
+</geometries>

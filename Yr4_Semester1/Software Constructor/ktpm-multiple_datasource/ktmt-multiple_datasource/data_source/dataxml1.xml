@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<students>
+  <student id="1">
+    <full_name>Nguyen Xuan Quang Dung</full_name>
+    <nick_name>nXqd</nick_name>
+    <grade>junior</grade>
+    <subject>Software architecture</subject>
+    <birthdate>30/05/1990</birthdate>
+    <age>21</age>
+    <gender>male</gender>
+  </student>
+  <student id="2">
+    <full_name>Nguyen Xuan Quang Dung2</full_name>
+    <nick_name>nXqd</nick_name>
+    <grade>junior</grade>
+    <subject>ECommerce</subject>
+    <birthdate>31/05/1990</birthdate>
+    <age>21</age>
+    <gender>male</gender>
+  </student>
+</students>

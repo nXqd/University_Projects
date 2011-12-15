@@ -1,0 +1,15 @@
+﻿// comment lines: 9
+// f1.a		-> a + 1
+// f2.a		-> a - 1
+// f3.a.b	-> a + b
+// f4.a.b	-> a - b
+// f5.a		-> a
+// f6.a		-> write a to console
+// Do not change any thing above below line
+----------------------------------------------------------------------
+a = f1.1
+b = f3.5.4
+c = f5.89
+d = f4.7898.c
+e = f3.b.d
+f6.e
